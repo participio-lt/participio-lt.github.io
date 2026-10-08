@@ -24,7 +24,7 @@ content:
         options:
           values:
             - { value: opinions, label: Praktinės gairės / How-to guides }
-            - { value: news, label: Renginiai ir finansavimas / Events & funding }
+            - { value: news, label: Naujienos / News }
             - { value: cases, label: Mūsų darbai / Our work }
       - { name: draft, label: Juodraštis (neskelbti) / Draft (not published), type: boolean }
       - name: steps

@@ -5,8 +5,8 @@ Website of Participio, in English (main version) and Lithuanian (under `/lt/`).
 The site has three pages in the menu:
 
 - **How-to guides** - our own guides and guides by others that we link to, tagged with the six steps of a participatory project (fund, plan, recruit, run, make sense, act and evaluate).
-- **Events & funding** - events of interest, our own events, funding calls and conference overviews.
-- **About** - what Participio is, track record, what we bring to a consortium, our work, experts.
+- **News** - events of interest, our own events, funding calls and conference overviews.
+- **About us** - what Participio is, track record, what we bring to a consortium, our work, experts.
 
 ## Adding and changing content (for editors)
 
@@ -15,7 +15,7 @@ Content is edited in the browser with [Pages CMS](https://app.pagescms.org). No 
 1. Open https://app.pagescms.org and sign in with your GitHub account. You need to be added to this repository first.
 2. Choose this repository. The menu on the left lists what can be edited.
 3. **To add a post**, open "Įrašai / Posts" and press "Add an entry".
-   - Pick the date and the section: How-to guides, Events & funding, or Our work.
+   - Pick the date and the section: How-to guides, News, or Our work.
    - Write the title, a summary of one or two sentences, and the text in English. Add Lithuanian if there is a translation. A post without a Lithuanian title shows only on the English site.
    - Upload a picture. If the picture is not ours, fill in the picture credit.
    - For an event organised by someone else, fill in "organised by". For our own event, tick "Our own event".

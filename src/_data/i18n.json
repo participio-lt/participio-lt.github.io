@@ -88,7 +88,7 @@
         "lede": "Atrinktas praktinių gairių rinkinys apie programos „Europos horizontas“ finansavimą ir dalyvaujamuosius metodus. Dalį parengė „Participio“ komanda, kitas parengė ekspertai kitur, į jas pateikiame nuorodas. Pasirinkite žingsnį ir matysite tik jo gaires."
       },
       "news": {
-        "title": "Renginiai ir finansavimas",
+        "title": "Naujienos",
         "h1": "Renginiai ir finansavimas dalyvaujamosioms veikloms",
         "lede": "Atranka iš visos srities, Lietuvoje ir už jos ribų. Daugumą šių renginių organizuoja kiti. Jei renginys mūsų, tai pažymėta."
       }
@@ -151,7 +151,7 @@
   },
   "en": {
     "contact": "Contact",
-    "about": "About",
+    "about": "About us",
     "participation_inclusion_codesign_deliberation_community": "Participation <i>·</i> Inclusion <i>·</i> Co-design <i>·</i> Deliberation <i>·</i> Community engagement <i>·</i> Listening <i>·</i> Trust <i>·</i> Belonging <i>·</i> Plurality <i>·</i> Voice <i>·</i> Dialogue <i>·</i> Equity <i>·</i> Care",
     "participio_is_a_new_practice": "Participio is a new practice, but the people behind it are not. The figures below reflect the combined track record our team members carry from prior roles at universities, research consortia, and partner organisations.",
     "participio_is_an_independent_practice": "Participio is an independent practice based in Vilnius, Lithuania. We bring together researchers, facilitators, and grants specialists who work on participatory research and community engagement.",
@@ -238,7 +238,7 @@
         "lede": "A curated set of practical guides on Horizon Europe funding and participatory approaches. Some are written by the Participio team, others by experts elsewhere, and those we link to. Pick a step to see only its guides."
       },
       "news": {
-        "title": "Events & funding",
+        "title": "News",
         "h1": "Events and funding for participatory activities",
         "lede": "A selection from across the field, in Lithuania and beyond. Most of these events are organised by others. Where one is ours, it is marked."
       }
