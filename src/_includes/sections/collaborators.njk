@@ -1,0 +1,15 @@
+  <!-- Who we work with: logos in one moving line -->
+  <section class="block">
+    <div class="container">
+      <h2 class="collab-h2">{{ t.collab_h2 }}</h2>
+    </div>
+    <div class="logo-line">
+      <ul class="logo-track">
+        {%- for n in [1, 2, 3] %}
+        {%- for x in db.collaborators.items %}
+          <li{% if n > 1 %} aria-hidden="true"{% endif %}>{% if x.url %}<a href="{{ x.url }}" target="_blank" rel="noopener" title="{{ x.name }}">{% endif %}{% if x.logo %}<img src="{{ x.logo }}" alt="{{ x.name }}" loading="lazy">{% else %}<span class="wordmark{% if x.mark %} mark-{{ x.mark }}{% endif %}">{{ x.name }}</span>{% endif %}{% if x.url %}</a>{% endif %}</li>
+        {%- endfor %}
+        {%- endfor %}
+      </ul>
+    </div>
+  </section>

@@ -1,0 +1,220 @@
+# Pages CMS (https://pagescms.org) - the editor used to add posts and update the texts on the site.
+media:
+  input: assets/uploads
+  output: /assets/uploads
+
+content:
+  - name: insights
+    label: Įrašai / Posts
+    type: collection
+    path: content/insights
+    format: json
+    filename: "{year}-{month}-{day}-{primary}.json"
+    view:
+      fields: [en.title, date, section, draft]
+      primary: en.title
+      sort: [date]
+      default: { sort: date, order: desc }
+    fields:
+      - { name: date, label: Data / Date, type: date, required: true }
+      - name: section
+        label: Skiltis / Section
+        type: select
+        required: true
+        options:
+          values:
+            - { value: opinions, label: Praktinės gairės / How-to guides }
+            - { value: news, label: Renginiai ir finansavimas / Events & funding }
+            - { value: cases, label: Mūsų darbai / Our work }
+      - { name: draft, label: Juodraštis (neskelbti) / Draft (not published), type: boolean }
+      - name: steps
+        label: Žingsniai (tik gairėms) / Steps (guides only)
+        type: select
+        options: { multiple: true, values: [fund, plan, recruit, run, sense, act] }
+      - { name: pinned, label: Rodyti sąrašo viršuje / Keep at the top of the list, type: boolean }
+      - { name: image, label: Paveikslėlis / Picture, type: image }
+      - name: image_source
+        label: Paveikslėlio šaltinis (jei ne mūsų) / Picture credit (if not ours)
+        type: object
+        fields:
+          - { name: name, label: Autorius arba organizacija / Author or organisation, type: string }
+          - { name: url, label: Nuoroda / Link, type: string }
+      - name: by
+        label: Ne mūsų renginys, organizuoja / Not our event, organised by (leave empty for our own)
+        type: object
+        fields:
+          - { name: en, label: English, type: string }
+          - { name: lt, label: Lietuviškai, type: string }
+      - { name: ours, label: Mūsų renginys / Our own event, type: boolean }
+      - name: en
+        label: English
+        type: object
+        fields:
+          - { name: title, label: Title, type: string, required: true }
+          - { name: summary, label: Summary (one or two sentences), type: text }
+          - { name: body, label: Text, type: rich-text, options: { format: html } }
+      - name: lt
+        label: Lietuviškai (palikite tuščią, jei vertimo nėra / leave empty if there is no translation)
+        type: object
+        fields:
+          - { name: title, label: Pavadinimas, type: string }
+          - { name: summary, label: Santrauka, type: text }
+          - { name: body, label: Tekstas, type: rich-text, options: { format: html } }
+
+  - name: guides_external
+    label: Kitų parengtos gairės / Guides by others
+    type: file
+    path: content/guides_external.json
+    format: json
+    fields:
+      - name: items
+        label: Gairės / Guides
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Pavadinimas / Title, type: string, required: true }
+          - { name: by, label: Kas parengė / Made by, type: string }
+          - { name: year, label: Metai / Year, type: string }
+          - { name: licence, label: Licencija / Licence, type: string }
+          - { name: url, label: Nuoroda / Link, type: string, required: true }
+          - name: steps
+            label: Žingsniai / Steps
+            type: select
+            options: { multiple: true, values: [fund, plan, recruit, run, sense, act] }
+          - { name: en, label: Description in English, type: text }
+          - { name: lt, label: Aprašymas lietuviškai, type: text }
+
+  - name: calls
+    label: Finansavimo kvietimai / Funding calls
+    type: file
+    path: content/calls.json
+    format: json
+    fields:
+      - { name: updated, label: Atnaujinta / Last updated, type: date }
+      - name: items
+        label: Kvietimai / Calls
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Kvietimas / Call, type: string, required: true }
+          - { name: deadline, label: Terminas / Deadline (leave empty if not known), type: date }
+          - { name: when, label: Pastaba apie datą / Note on timing (for example "opens 8 Dec"), type: string }
+          - { name: what, label: Ką finansuoja / What it funds, type: text }
+          - { name: funder, label: Finansuotojas / Funder, type: string }
+          - { name: amount, label: Suma / Amount, type: string }
+          - { name: url, label: Nuoroda / Link, type: string }
+
+  - name: work
+    label: Mūsų darbai (puslapis „Apie“) / Our work (About page)
+    type: file
+    path: content/work.json
+    format: json
+    fields:
+      - name: items
+        label: Projektai / Projects
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Pavadinimas / Name, type: string }
+          - name: meta
+            label: Programa ir metai / Programme and years
+            type: object
+            fields:
+              - { name: en, label: English, type: string }
+              - { name: lt, label: Lietuviškai, type: string }
+          - { name: en, label: Description in English, type: text }
+          - { name: lt, label: Aprašymas lietuviškai, type: text }
+          - name: links
+            label: Nuorodos / Links
+            type: object
+            list: true
+            fields:
+              - { name: en, label: Link text in English, type: string }
+              - { name: lt, label: Nuorodos tekstas lietuviškai, type: string }
+              - { name: url, label: Išorinė nuoroda / External link, type: string }
+              - { name: slug, label: Įrašo adreso dalis / Post address (for posts on this site), type: string }
+              - { name: route, label: Įrašo skiltis / Post section, type: select, options: { values: [insights, opinions, news] } }
+
+  - name: services
+    label: Ką siūlome konsorciumui / What we bring to a consortium
+    type: file
+    path: content/services.json
+    format: json
+    fields:
+      - name: items
+        label: Paslaugos / Services
+        type: object
+        list: true
+        fields:
+          - name: en
+            label: English
+            type: object
+            fields: &service
+              - { name: title, label: Pavadinimas / Title, type: string }
+              - { name: who, label: Kam skirta / Who it is for, type: string }
+              - { name: summary, label: Trumpai / In short, type: text }
+              - { name: text, label: Ką gaunate / What you get, type: text }
+          - { name: lt, label: Lietuviškai, type: object, fields: *service }
+
+  - name: team
+    label: Ekspertai / Experts
+    type: file
+    path: content/team.json
+    format: json
+    fields:
+      - name: items
+        label: Ekspertai / Experts
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Vardas ir pavardė / Name, type: string }
+          - { name: image, label: Nuotrauka / Photo, type: image }
+          - name: en
+            label: English
+            type: object
+            fields:
+              - { name: tags, label: Areas of expertise, type: string, list: true }
+          - name: lt
+            label: Lietuviškai
+            type: object
+            fields:
+              - { name: tags, label: Kompetencijos, type: string, list: true }
+
+  - name: stats
+    label: Skaičiai / Figures
+    type: file
+    path: content/stats.json
+    format: json
+    fields:
+      - name: items
+        label: Skaičiai / Figures
+        type: object
+        list: true
+        fields:
+          - name: en
+            label: English
+            type: object
+            fields:
+              - { name: number, label: Number, type: string }
+              - { name: label, label: Label, type: string }
+          - name: lt
+            label: Lietuviškai
+            type: object
+            fields:
+              - { name: number, label: Skaičius, type: string }
+              - { name: label, label: Paaiškinimas, type: string }
+
+  - name: collaborators
+    label: Logotipų juosta / Logo line
+    type: file
+    path: content/collaborators.json
+    format: json
+    fields:
+      - name: items
+        label: Projektai ir organizacijos / Projects and organisations
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Pavadinimas / Name, type: string }
+          - { name: logo, label: Logotipas / Logo, type: image }
+          - { name: url, label: Nuoroda / Link, type: string }

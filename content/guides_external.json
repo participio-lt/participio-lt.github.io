@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "title": "Ethical Co-Creation Toolkit",
+      "by": "UAB Center for Clinical and Translational Science (CCTS), 2026 Bioethics Forum",
+      "year": "2026",
+      "licence": "",
+      "steps": [
+        "fund",
+        "plan"
+      ],
+      "url": "https://www.uab.edu/ccts/images/bioethics-forum/2026/CCTS_Ethical_Co-Creation_Toolkit_2026.pdf",
+      "en": "Nine worksheets and checklists for community-academic partnerships, from roles, compensation and data ownership to a concept brief and budget. Based on community-based participatory research principles.",
+      "lt": "Devyni darbo lapai ir kontroliniai sąrašai bendruomenių ir mokslininkų partnerystėms: nuo vaidmenų, atlygio ir duomenų nuosavybės iki koncepcijos santraukos ir biudžeto. Remiasi bendruomenėmis grįstų dalyvaujamųjų tyrimų principais."
+    },
+    {
+      "title": "Youth Insights Participatory Research Toolkit",
+      "by": "L. Gilder, Queen Mary University of London",
+      "year": "2026",
+      "licence": "CC BY 4.0",
+      "steps": [
+        "plan",
+        "run"
+      ],
+      "url": "https://participatory-research-resources.ed.ac.uk/?p=507",
+      "en": "For anyone doing research with, rather than about, children and young people. Co-developed with a team of Youth Insight researchers at Queen Mary.",
+      "lt": "Skirta tiems, kurie tyrimus atlieka kartu su vaikais ir jaunimu, o ne apie juos. Parengta kartu su „Youth Insight“ jaunųjų tyrėjų komanda Queen Mary universitete."
+    },
+    {
+      "title": "Feminist Participatory Action Research (FPAR) Toolkit",
+      "by": "Knowledge for Development Foundation (K4D)",
+      "year": "2025",
+      "licence": "CC BY-NC-SA",
+      "steps": [
+        "plan",
+        "run"
+      ],
+      "url": "https://data.opendevelopmentmekong.net/library_record/feminist-participatory-action-research-fpar-toolkit",
+      "en": "A handbook for women-led groups, researchers, facilitators and grassroots activists on applying feminist participatory action research in research, community engagement and advocacy.",
+      "lt": "Vadovas moterų vadovaujamoms grupėms, tyrėjams, moderatoriams ir vietos aktyvistams apie feministinio dalyvaujamojo veiklos tyrimo taikymą tyrimuose, bendruomenių įtraukime ir advokacijoje."
+    },
+    {
+      "title": "Co-Creating Our City",
+      "by": "d|part, Gambrell Foundation, German Marshall Fund and SCI:MOVE",
+      "year": "",
+      "licence": "",
+      "steps": [
+        "plan",
+        "run",
+        "act"
+      ],
+      "url": "https://www.cocreatingourcity.org/",
+      "en": "A five-module toolkit for cities and community organisations that want young people and local decision-makers to research an issue together and turn it into proposals. Based on pilots in Charlotte and Düsseldorf.",
+      "lt": "Penkių modulių priemonių rinkinys miestams ir bendruomenių organizacijoms, norinčioms, kad jaunimas ir vietos sprendimų priėmėjai kartu tirtų problemą ir paverstų ją pasiūlymais. Remiasi bandomaisiais projektais Šarlotėje ir Diuseldorfe."
+    },
+    {
+      "title": "AI Ethics Framework",
+      "by": "Zooniverse",
+      "year": "2026",
+      "licence": "",
+      "steps": [
+        "plan",
+        "run"
+      ],
+      "url": "https://www.zooniverse.org/about/ai-ethics",
+      "en": "Principles and practical recommendations for the responsible use of AI and machine learning in citizen science and participatory research, with a focus on transparency, participant choice and shared expectations.",
+      "lt": "Principai ir praktinės rekomendacijos, kaip atsakingai naudoti dirbtinį intelektą ir mašininį mokymąsi piliečių moksle ir dalyvaujamuosiuose tyrimuose, pabrėžiant skaidrumą, dalyvių pasirinkimą ir bendrus lūkesčius."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "project": "CLIMAS",
+      "url": "https://www.climas-project.eu/",
+      "image": "/images/project-coastal.jpg",
+      "lt": {
+        "title": "Vilniaus ateities laboratorija",
+        "text": "Kartu vedėme ateities scenarijų kūrimo dirbtuves Vilniaus Aukštamiesčio gyvojoje laboratorijoje, kuriose gyventojai, tyrėjai ir vietos veikėjai kūrė miesto prisitaikymo prie klimato kaitos scenarijus. Prisidėjome prie dirbtuvių kūrimo, scenarijų sintezės ir bendruomenės sukurtų ateities vizijų pavertimo tyrimų ir politikos įžvalgomis CLIMAS („Europos horizontas“) konsorciumui.",
+        "alt": "Dalyvaujamosios dirbtuvės su gyventojais ir planuotojais"
+      },
+      "en": {
+        "title": "Vilnius Futures Lab",
+        "text": "Co-facilitated a future scenario building workshop in Vilnius Aukštamiestis Living Lab bringing residents, researchers, and local actors together to build climate adaptation scenarios for the city. Contributed to workshop design, scenario synthesis, and the translation of community-generated futures into research and policy inputs for the CLIMAS (Horizon Europe) consortium.",
+        "alt": "Participatory workshop with residents and planners"
+      }
+    },
+    {
+      "project": "DIGICHer",
+      "url": "https://www.digicher-project.eu/",
+      "image": "/images/project-heritage.jpg",
+      "lt": {
+        "title": "Kieno paveldas svarbus",
+        "text": "Sukūrėme ir vedėme dalyvaujamąsias dirbtuves su paveldo specialistais ir mažumų bendruomenių atstovais, kuriose aiškinomės, kaip priimami skaitmeninimo sprendimai ir kieno paveldas tampa matomas. Prisidėjome prie kokybinės analizės ir stebėsenos metodikos, formuojančios DIGICHer („Europos horizontas“) projekto požiūrį į įtraukų skaitmeninį paveldą.",
+        "alt": "Skaitymo grupė paveldo interjere"
+      },
+      "en": {
+        "title": "Whose Heritage Counts",
+        "text": "Designed and ran participatory workshops with heritage practitioners and minority community voices, exploring how digitisation decisions are made and whose heritage gets visibility. Contributed to qualitative analysis and to the monitoring methodology shaping the DIGICHer (Horizon Europe) project's approach to inclusive digital heritage.",
+        "alt": "Reading group in a heritage interior"
+      }
+    },
+    {
+      "project": "INFODEMIJA",
+      "url": "https://www.infodemija.lt",
+      "image": "/images/project-schools.jpg",
+      "lt": {
+        "title": "Išbandytas pasitikėjimas",
+        "text": "Kartu sukūrėme viešą mokslo komunikacijos svetainę ir vedėme fokus grupes apie visuomenės pasitikėjimą mokslu: kur jis išlieka, kur silpsta ir kas jį atkuria. Prisidėjome prie tyrimo dizaino, kokybinės analizės ir rezultatų įtraukimo į mokslo komunikacijos strategijos vadovą Lietuvos auditorijoms.",
+        "alt": "Įvairių suinteresuotųjų šalių dirbtuvės apie bendrakūros metodus"
+      },
+      "en": {
+        "title": "Trust, Tested",
+        "text": "Co-developed a public-facing website on science communication and ran focus groups examining public trust in science: where it holds, where it erodes, and what rebuilds it. Contributed to research design, qualitative analysis, and the integration of findings into a science communication strategy playbook for Lithuanian audiences.",
+        "alt": "Multi-stakeholder workshop on co-creation methods"
+      }
+    }
+  ]
+}

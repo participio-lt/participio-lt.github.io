@@ -1,0 +1,7 @@
+node_modules
+_site
+.DS_Store
+
+# Kept on this computer only, not published
+_first-draft-2026-10-07
+_private

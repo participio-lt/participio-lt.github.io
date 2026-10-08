@@ -1,0 +1,46 @@
+---
+layout: base.njk
+pagination:
+  data: db.insightPages
+  size: 1
+  alias: entry
+permalink: "{{ routes[entry.item.route][entry.lang] }}{{ entry.item.slug }}/"
+eleventyComputed:
+  lang: "{{ entry.lang }}"
+  key: "{{ entry.item.route }}"
+  pageTitle: "{{ entry.item[entry.lang].title }}"
+  description: "{{ entry.item[entry.lang].summary }}"
+  altUrl: "{% set o = 'en' if entry.lang == 'lt' else 'lt' %}{{ routes[entry.item.route][o] }}{% if entry.item[o].title %}{{ entry.item.slug }}/{% endif %}"
+---
+{%- set t = i18n[entry.lang] -%}
+{%- set item = entry.item -%}
+<article class="post">
+  <div class="container">
+    <div class="post-narrow">
+      <p><a class="post-back" href="{% if item.section == 'cases' %}{{ routes.about[entry.lang] }}#work{% else %}{{ routes[item.route][entry.lang] }}{% endif %}">&larr; {{ t.sections[item.section].title }}</a></p>
+      <p class="chips"><span class="chip plain">{{ t.sections[item.section].title }}</span>{% if item.by %}<span class="chip outline">{{ t.by_others }}</span>{% endif %}</p>
+      <h1>{{ item[entry.lang].title }}</h1>
+      {% if item.image %}<img class="post-img" src="{{ item.image }}" alt="">{% endif %}
+      {% if item.image_source %}<p class="img-source">{{ t.image_source }} <a href="{{ item.image_source.url }}" target="_blank" rel="noopener">{{ item.image_source.name }}</a></p>{% endif %}
+      {% if item.by %}<p class="by-note">{{ t.by_note_1 }} {{ item.by[entry.lang] }}{{ t.by_note_2 }}</p>{% endif %}
+      <div class="prose">{{ item[entry.lang].body | mark | safe }}</div>
+      {% if item.eu_note %}<p class="eu-note">{{ t.eu_disclaimer }}</p>{% endif %}
+    </div>
+    {%- if item.calls %}
+    <div class="post-wide">
+      <table class="calls">
+        <thead><tr><th>{{ t.calls_deadline }}</th><th>{{ t.calls_call }}</th><th>{{ t.calls_funder }}</th><th>{{ t.calls_amount }}</th></tr></thead>
+        <tbody>
+          {%- for c in db.calls.items | dated %}
+          <tr><td class="calls-date">{{ c.deadline | niceDate(entry.lang) }}{% if c.when %}<span>{{ c.when }}</span>{% endif %}</td><td><a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.name }}</a><span>{{ c.what }}</span></td><td>{{ c.funder }}</td><td>{{ c.amount or t.calls_see }}</td></tr>
+          {%- endfor %}
+          <tr class="calls-sep"><th colspan="4">{{ t.calls_expected_h }}</th></tr>
+          {%- for c in db.calls.items | undated %}
+          <tr><td class="calls-date">{{ c.when }}</td><td><a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.name }}</a><span>{{ c.what }}</span></td><td>{{ c.funder }}</td><td>{{ c.amount or t.calls_see }}</td></tr>
+          {%- endfor %}
+        </tbody>
+      </table>
+    </div>
+    {%- endif %}
+  </div>
+</article>

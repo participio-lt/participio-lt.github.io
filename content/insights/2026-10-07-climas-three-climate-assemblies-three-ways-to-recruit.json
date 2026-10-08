@@ -1,0 +1,19 @@
+{
+  "date": "2026-06-11",
+  "section": "cases",
+  "image": "/assets/uploads/events/workshop-coastal.jpg",
+  "lt": {
+    "title": "",
+    "summary": "",
+    "body": ""
+  },
+  "en": {
+    "title": "CLIMAS: three climate assemblies, three ways to recruit",
+    "summary": "CLIMAS (Horizon Europe, 2023 to 2025) ran three climate assemblies with three different recruitment routes. The routes ranged from 20,000 letters in Catalonia to a ready-made database in Riga. VILNIUS TECH coordinated the project and led the evaluation (WP5).",
+    "body": "<p>CLIMAS (Horizon Europe, 2023 to 2025) ran three climate assemblies with three different recruitment routes. The routes ranged from 20,000 letters in Catalonia to a ready-made database in Riga. VILNIUS TECH coordinated the project and led the evaluation (WP5).</p><p><strong>The setting.</strong> Each assembly was commissioned by a public body and worked on a local adaptation question. Riga's assembly fed into the city's greening plan, and its recommendations went to the City Council. Lithuania took part through the Vilnius Living Lab, which tested tools rather than running an assembly.</p><p><strong>How people were invited.</strong></p><table><thead><tr><th></th><th>Catalonia (CA1)</th><th>Edermünde (CA2)</th><th>Riga (CA3)</th></tr></thead><tbody><tr><td>Invitation route</td><td>Civic lottery, about 20,000 letters</td><td>1,241 letters, about 20% of households</td><td>External database of 9,000 residents</td></tr><tr><td>Selected or recruited</td><td>100</td><td>not stated</td><td>35</td></tr><tr><td>Took part</td><td>83</td><td>28</td><td>35</td></tr><tr><td>Sessions</td><td>6, in 5 cities</td><td>3</td><td>5</td></tr><tr><td>Period</td><td>Oct 2023 to Feb 2024</td><td>not stated</td><td>Sep to Nov 2024</td></tr><tr><td>Recommendations</td><td>48</td><td>16</td><td>41, to the City Council</td></tr><tr><td>Budget</td><td>about EUR 600,000, media excluded</td><td>about EUR 100,000</td><td>EUR 68,200</td></tr></tbody></table><p><strong>What the comparison shows.</strong> Cost followed the invitation route more than the number of participants. Catalonia paid about EUR 7,200 per participant, Riga about EUR 1,950. The database route was the cheapest, but it reaches only people already on the list. Riga kept attendance above 95% over five sessions.</p><p><strong>What carried over.</strong> The evaluation found that political uptake depended on internal champions in the municipality. Riga and Edermünde both showed this. The same lesson now shapes the evaluation design for the Kauno rajonas assembly (autumn 2026). There, pure random selection of 30 people could miss the underserved groups the health topic is about, so stratification is flagged from the start.</p><p class=\"case-note\">This case draws on work our team members did in their roles at universities and partner organisations. Participio was not a partner in this project.</p>"
+  },
+  "steps": [
+    "recruit",
+    "act"
+  ]
+}

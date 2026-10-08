@@ -1,0 +1,16 @@
+  <!-- Experts: a compact directory, not profiles -->
+  <section class="block" id="experts">
+    <div class="container">
+      <h2>{{ t.experts_h2 }}</h2>
+      <p class="block-lede small">{{ t.experts_lede }}</p>
+      <ul class="experts">
+        {%- for x in db.team.items %}
+        <li>
+          <img src="{{ x.image }}" alt="" loading="lazy" width="44" height="44">
+          <strong>{{ x.name }}</strong>
+          <span class="chips">{% for tag in x[lang].tags %}<span class="chip plain">{{ tag }}</span>{% endfor %}</span>
+        </li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </section>

@@ -1,0 +1,11 @@
+  <!-- The team's track record in one slim row -->
+  <section class="figures-band">
+    <div class="container">
+      <div class="figures">
+        {%- for x in db.stats.items %}
+        <div><strong>{{ x[lang].number | mark | safe }}</strong><span>{{ x[lang].label | mark | safe }}</span></div>
+        {%- endfor %}
+      </div>
+      <p class="figures-note">{{ t.figures_note }}</p>
+    </div>
+  </section>

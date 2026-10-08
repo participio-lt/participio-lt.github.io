@@ -1,0 +1,12 @@
+{
+  "name": "participio-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cd \"$(dirname \"$npm_package_json\")\" && eleventy --serve --port 8091",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

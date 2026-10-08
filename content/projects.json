@@ -1,0 +1,92 @@
+{
+  "items": [
+    {
+      "dates": "2027-2029",
+      "grant": "101289718",
+      "en": {
+        "label": "Horizon Europe",
+        "title": "RESCUE",
+        "text": "Twelve partners in eight countries build and test a framework that treats intangible cultural heritage as a source of resilience. Coordinated by VILNIUS TECH.",
+        "role": "Community engagement and citizen science partner.",
+        "url": "/our-work/rescue-one-framework-six-very-different-heritage-sites/"
+      },
+      "lt": {
+        "label": "„Europos horizontas“",
+        "title": "RESCUE",
+        "text": "Dvylika partnerių iš aštuonių šalių kuria ir išbando sistemą, kuri nematerialų kultūros paveldą laiko atsparumo šaltiniu. Koordinuoja VILNIUS TECH.",
+        "role": "Bendruomenių įtraukimo ir piliečių mokslo partneris.",
+        "url": "/lt/musu-darbai/rescue-one-framework-six-very-different-heritage-sites/"
+      }
+    },
+    {
+      "dates": "15 October 2026",
+      "dates_lt": "2026 m. spalio 15 d.",
+      "en": {
+        "label": "Event for DIGICHer",
+        "title": "Workshop at the Sugihara House Museum, Kaunas",
+        "text": "An invitation-only workshop. The description and outcomes will follow after the event.",
+        "role": "Organiser.",
+        "url": ""
+      },
+      "lt": {
+        "label": "Renginys projektui DIGICHer",
+        "title": "Dirbtuvės Sugiharos namuose, Kaune",
+        "text": "Dirbtuvės tik pakviestiems dalyviams. Aprašymą ir rezultatus paskelbsime po renginio.",
+        "role": "Organizatorius.",
+        "url": ""
+      }
+    },
+    {
+      "dates": "23 September 2026",
+      "dates_lt": "2026 m. rugsėjo 23 d.",
+      "en": {
+        "label": "Event for DIGICHer",
+        "title": "Linguistic diversity and digital heritage, Brussels",
+        "text": "A networking breakfast and panel on the European Day of Languages, held by the Network to Promote Linguistic Diversity with DIGICHer.",
+        "role": "Organiser.",
+        "url": "/news/linguistic-diversity-and-digital-heritage-npld-digicher-brussels/"
+      },
+      "lt": {
+        "label": "Renginys projektui DIGICHer",
+        "title": "Kalbų įvairovė ir skaitmeninis paveldas, Briuselis",
+        "text": "Bendravimo pusryčiai ir diskusija Europos kalbų dienos proga, surengti Kalbų įvairovės skatinimo tinklo kartu su DIGICHer.",
+        "role": "Organizatorius.",
+        "url": "/lt/naujienos/linguistic-diversity-and-digital-heritage-npld-digicher-brussels/"
+      }
+    },
+    {
+      "dates": "2023-2026",
+      "en": {
+        "label": "Platform",
+        "title": "infodemija.lt",
+        "text": "An online platform on science communication in Lithuania, built on a survey of 1,005 residents. Created at Mykolas Romeris University with Research Council of Lithuania funding.",
+        "role": "We curate the platform.",
+        "url": "https://www.infodemija.lt/"
+      },
+      "lt": {
+        "label": "Platforma",
+        "title": "infodemija.lt",
+        "text": "Internetinė platforma apie mokslo komunikaciją Lietuvoje, paremta 1 005 gyventojų apklausa. Sukurta Mykolo Romerio universitete, finansuojant Lietuvos mokslo tarybai.",
+        "role": "Kuruojame platformą.",
+        "url": "https://www.infodemija.lt/"
+      }
+    },
+    {
+      "dates": "2026",
+      "en": {
+        "label": "Team initiative",
+        "title": "\"A Call from the Past\"",
+        "text": "A six-stop audio guide along J. Basanavičiaus Street in Vilnius, made by a team member during her studies and tested with the neighbours.",
+        "role": "",
+        "url": "/our-work/a-call-from-the-past-audio-guide-tested-with-neighbours/"
+      },
+      "lt": {
+        "label": "Komandos iniciatyva",
+        "title": "„Skambutis iš praeities“",
+        "text": "Šešių stotelių audiogidas po J. Basanavičiaus gatvę Vilniuje, kurį komandos narė sukūrė studijų metu ir išbandė su kaimynais.",
+        "role": "",
+        "url": "/lt/musu-darbai/a-call-from-the-past-audio-guide-tested-with-neighbours/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+  <!-- Resources -->
+  <section id="resources">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow"><span class="eyebrow-num"></span>{{ t.resources }}</span>
+          <h2 style="margin-top:20px">{{ t.resources_h2 }}</h2>
+        </div>
+        <p class="lede">{{ t.resources_lede }}</p>
+      </div>
+      <div class="work-block">
+        {%- for x in db.resources.items %}
+        <a class="work-row" href="{{ x.url }}" target="_blank" rel="noopener">
+          <span class="when">{{ t.resource_types[x.type] }} · {{ x.language | upper }}</span>
+          <h3>{{ x[lang].title }}</h3>
+          <div>
+            <p>{{ x[lang].text }}</p>
+            <p class="service-details">{{ x.source }}</p>
+          </div>
+        </a>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>

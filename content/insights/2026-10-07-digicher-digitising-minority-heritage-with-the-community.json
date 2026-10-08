@@ -1,0 +1,19 @@
+{
+  "date": "2026-07-02",
+  "section": "cases",
+  "image": "/assets/uploads/events/workshop-heritage.jpg",
+  "lt": {
+    "title": "",
+    "summary": "",
+    "body": ""
+  },
+  "en": {
+    "title": "DIGICHer: digitising minority heritage with the community",
+    "summary": "DIGICHer (Horizon Europe, Feb 2024 to Jan 2027) tests one framework for ethical digitisation with three minorities that could hardly be more different. The innovation is the process. The digital collection may look the same as any other, but how it was reached, and how the community feels at the end, is different.",
+    "body": "<p>DIGICHer (Horizon Europe, Feb 2024 to Jan 2027) tests one framework for ethical digitisation with three minorities that could hardly be more different. The innovation is the process. The digital collection may look the same as any other, but how it was reached, and how the community feels at the end, is different.</p><p><strong>Three pilots, three starting points.</strong> The Sámi are an Indigenous people with a stated claim to control their own data. Jewish heritage is spread across a transnational diaspora with strong heritage institutions. The Ladin are a small Alpine language minority. The pilots were chosen for these differences, so the framework had to hold under each.</p><p><strong>Where consent and ownership came up.</strong> The Sámi and Ladin pilots started with co-design workshops before any digitisation decision. The partners used a service design toolkit adapted for the purpose: personas, empathy maps, \"how might we\" questions and value cards. Ownership was handled through the CARE principles (collective benefit, authority to control, responsibility, ethics) read alongside FAIR. For the Sámi, authority to control was the deciding test. Work outside the project shows why: in Sámi language technology, the community moved from being mis-transcribed by outside tools to steering its own resources.</p><p><strong>What did not go to plan.</strong> The Jewish pilot started late. By month 24 it had a stakeholder map and an alignment call, but no workshops. The deliverable stated this openly.</p><p><strong>What it produced.</strong> The monitoring methodology (D6.2) turns the lessons into the Digital Co-Creation Index, a scored web tool across six dimensions. Heritage institutions can use it to check their own projects.</p><p class=\"case-note\">This case draws on work our team members did in their roles at universities and partner organisations. Participio was not a partner in this project.</p>"
+  },
+  "steps": [
+    "plan",
+    "run"
+  ]
+}

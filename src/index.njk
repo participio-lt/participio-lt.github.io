@@ -1,0 +1,42 @@
+---
+layout: base.njk
+key: home
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ routes.home[lang] }}"
+---
+{%- set t = i18n[lang] %}
+{%- import "macros.njk" as ui %}
+{%- set posts = db.insights | inLang(lang) | published %}
+{% include "sections/hero.njk" %}
+  <section class="statement">
+    <div class="container">
+      <p>{{ t.statement }}</p>
+    </div>
+  </section>
+  <section class="block">
+    <div class="container">
+      <div class="list-head">
+        <h2>{{ t.latest_h2 }}</h2>
+      </div>
+      <ul class="plain-list">
+        {%- for x in posts | mixed | take(6) %}
+        <li><a href="{{ routes[x.route][lang] }}{{ x.slug }}/"><span>{{ x.date | niceDate(lang) }} · {{ t.sections[x.section].title }}{% if x.by %} · {{ t.organised_by }} {{ x.by[lang] }}{% elif x.ours %} · {{ t.ours }}{% endif %}</span>{{ x[lang].title }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </section>
+{% include "sections/collaborators.njk" %}
+  <section class="block last">
+    <div class="container">
+      <div class="cta">
+        <div>
+          <h2>{{ t.building_a_proposal_that_needs | safe }}</h2>
+          <p>{{ t.cta_text }}</p>
+        </div>
+        <a class="cta-button" href="mailto:info@participio.eu">info@participio.eu</a>
+      </div>
+    </div>
+  </section>

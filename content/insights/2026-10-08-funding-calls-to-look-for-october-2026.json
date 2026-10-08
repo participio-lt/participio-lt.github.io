@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-08",
+  "section": "news",
+  "steps": [
+    "fund"
+  ],
+  "image": "/assets/uploads/events/funding-calls-october-2026.webp",
+  "calls": true,
+  "cover_text": {
+    "en": "October 2026",
+    "lt": "2026 m. spalis"
+  },
+  "en": {
+    "title": "Funding calls to look for: October 2026",
+    "summary": "Open and upcoming calls that can fund participatory, heritage and civil society work, with deadlines, amounts and links to the call pages.",
+    "body": "<p>This is our list of open and upcoming calls that can fund participatory, heritage and civil society work, sorted by deadline. Always check the call page for the rules that apply.</p>"
+  },
+  "lt": {
+    "title": "Finansavimo kvietimai, į kuriuos verta atkreipti dėmesį: 2026 m. spalis",
+    "summary": "Atviri ir būsimi kvietimai, galintys finansuoti dalyvaujamąsias, paveldo ir pilietinės visuomenės veiklas: terminai, sumos ir nuorodos į kvietimų puslapius.",
+    "body": "<p>Tai mūsų sudarytas atvirų ir būsimų kvietimų, galinčių finansuoti dalyvaujamąsias, paveldo ir pilietinės visuomenės veiklas, sąrašas pagal terminą. Sąlygas visada tikrinkite kvietimo puslapyje.</p>"
+  }
+}

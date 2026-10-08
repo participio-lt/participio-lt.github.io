@@ -1,0 +1,22 @@
+{
+  "home": {
+    "en": "/",
+    "lt": "/lt/"
+  },
+  "insights": {
+    "en": "/our-work/",
+    "lt": "/lt/musu-darbai/"
+  },
+  "about": {
+    "en": "/about/",
+    "lt": "/lt/apie/"
+  },
+  "opinions": {
+    "en": "/how-to-guides/",
+    "lt": "/lt/praktines-gaires/"
+  },
+  "news": {
+    "en": "/news/",
+    "lt": "/lt/naujienos/"
+  }
+}

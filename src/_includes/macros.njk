@@ -1,0 +1,19 @@
+{# A post card: picture on top, then section and step labels, title, summary and date. #}
+{% macro case(x, lang, t, steps, routes) %}
+<a class="card case" data-kind="post" data-steps="{{ (x.steps or []) | join(' ') }}" href="{{ routes[x.route][lang] }}{{ x.slug }}/">
+  <div class="cover{% if x.cover_text and not x.image %} call-cover{% endif %} s-{{ (x.steps or [])[0] or 'none' }}{% if x.section == "opinions" and not x.image %} bar{% endif %}">{% if x.section == "opinions" and not x.image %}{% for k in x.steps %}<i class="s-{{ k }}"></i>{% endfor %}{% endif %}{% if x.image %}<img{% if x.image_fit %} class="fit-{{ x.image_fit }}"{% endif %} src="{{ x.image }}" alt="" loading="lazy">{% elif x.cover_text %}<span>{{ x.cover_label[lang] if x.cover_label else t.calls_chip_pl }}</span><strong>{{ x.cover_text[lang] }}</strong>{% endif %}</div>
+  <div class="card-body">
+    <div class="chips">
+      {% if x.section == "cases" %}<span class="chip outline">{{ t.by_experts }}</span>{% elif x.section == "opinions" %}{% for st in steps %}{% if st.key in (x.steps or []) %}<span class="chip step s-{{ st.key }}">{{ st[lang].title }}</span>{% endif %}{% endfor %}{% else %}<span class="chip plain">{{ t.sections[x.section].title }}</span>{% endif %}
+      {% if x.by %}<span class="chip outline">{{ t.by_others }}</span>{% endif %}
+      {% if x.ours %}<span class="chip s-plan">{{ t.ours }}</span>{% endif %}
+      {% if x.draft %}<span class="chip draft">{{ t.draft }}</span>{% endif %}
+    </div>
+    <h3>{{ x[lang].title }}</h3>
+    <p>{{ x[lang].summary }}</p>
+    <p class="practice">{{ x.date | niceDate(lang) }}{% if x.by %} · {{ t.organised_by }} {{ x.by[lang] }}{% endif %}</p>
+    {% if x.image_source %}<p class="card-credit">{{ t.image_source }} {{ x.image_source.name }}</p>{% endif %}
+  </div>
+</a>
+{% endmacro %}
+

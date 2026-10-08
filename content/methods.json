@@ -1,0 +1,238 @@
+{
+  "items": [
+    {
+      "steps": [
+        "plan"
+      ],
+      "aim": "understand",
+      "en": {
+        "title": "Stakeholder mapping",
+        "what": "A structured list or diagram of who is affected by a question, who decides, and who is usually left out.",
+        "when": "Before you invite anyone, so that recruitment and formats follow from who needs to be there.",
+        "used": "In DIGICHer (Horizon Europe), the Jewish heritage pilot began with a stakeholder map before any workshop."
+      },
+      "lt": {
+        "title": "Suinteresuotųjų šalių žemėlapis",
+        "what": "Struktūruotas sąrašas ar schema: ką klausimas paliečia, kas sprendžia ir kas paprastai lieka nuošalyje.",
+        "when": "Prieš ką nors kviečiant, kad kvietimas ir formatai išplauktų iš to, kas turi dalyvauti.",
+        "used": "Projekte DIGICHer („Europos horizontas“) žydų paveldo bandomasis atvejis prasidėjo nuo suinteresuotųjų šalių žemėlapio dar prieš dirbtuves."
+      }
+    },
+    {
+      "steps": [
+        "plan"
+      ],
+      "aim": "understand",
+      "en": {
+        "title": "Ladder of participation",
+        "what": "A scale that separates token involvement from real shared decisions. Sherry Arnstein proposed it in 1969 and Roger Hart adapted it for work with children.",
+        "when": "You need to state honestly how much say participants will have, before you promise it.",
+        "used": "[GAP: an example from practice, from the team]"
+      },
+      "lt": {
+        "title": "Dalyvavimo kopėčios",
+        "what": "Skalė, atskirianti tariamą įtraukimą nuo tikro bendro sprendimų priėmimo. Ją 1969 m. pasiūlė Sherry Arnstein, o Roger Hart pritaikė darbui su vaikais.",
+        "when": "Kai reikia sąžiningai įvardyti, kiek galios turės dalyviai, prieš tai pažadant.",
+        "used": "[GAP: pavyzdys iš praktikos, iš komandos]"
+      }
+    },
+    {
+      "steps": [
+        "recruit"
+      ],
+      "aim": "decide",
+      "en": {
+        "title": "Civic lottery",
+        "what": "Invitations go to a large random sample of households, and the final group is drawn from those who reply so that it mirrors the population.",
+        "when": "Legitimacy matters and you can afford letters and a selection stage.",
+        "used": "In CLIMAS (Horizon Europe), which VILNIUS TECH coordinated and evaluated, the Catalonia assembly sent about 20,000 letters and selected 100 people."
+      },
+      "lt": {
+        "title": "Pilietinė loterija",
+        "what": "Kvietimai siunčiami didelei atsitiktinei namų ūkių imčiai, o galutinė grupė iš atsiliepusiųjų atrenkama taip, kad atspindėtų gyventojų sudėtį.",
+        "when": "Kai svarbus legitimumas ir galite skirti lėšų laiškams bei atrankos etapui.",
+        "used": "Projekte CLIMAS („Europos horizontas“), kurį koordinavo ir vertino VILNIUS TECH, Katalonijos asamblėja išsiuntė apie 20 000 laiškų ir atrinko 100 žmonių."
+      }
+    },
+    {
+      "steps": [
+        "recruit"
+      ],
+      "aim": "decide",
+      "en": {
+        "title": "Recruiting from an existing database",
+        "what": "Participants are drawn from a database of residents who have already agreed to be contacted.",
+        "when": "Time and budget are short, and you accept that only people already on the list can be reached.",
+        "used": "In CLIMAS, the Riga assembly recruited 35 people from an external database of 9,000 residents and kept attendance above 95% over five sessions."
+      },
+      "lt": {
+        "title": "Atranka iš esamos duomenų bazės",
+        "what": "Dalyviai atrenkami iš gyventojų, jau sutikusių, kad su jais būtų susisiekta, duomenų bazės.",
+        "when": "Kai trūksta laiko ir lėšų ir sutinkate, kad pasiekiami tik jau sąraše esantys žmonės.",
+        "used": "Projekte CLIMAS Rygos asamblėja 35 žmones atrinko iš išorinės 9 000 gyventojų duomenų bazės ir per penkias sesijas išlaikė didesnį nei 95 % lankomumą."
+      }
+    },
+    {
+      "en": {
+        "title": "Citizens' panel",
+        "what": "A group of residents, selected to reflect the wider population, learns about an issue, hears from experts and each other, and agrees on recommendations.",
+        "when": "The question involves trade-offs and values, and a decision-maker is ready to respond to the result.",
+        "used": "[GAP: an example from practice, from the team]"
+      },
+      "lt": {
+        "title": "Piliečių grupė",
+        "what": "Gyventojų grupė, atrinkta taip, kad atspindėtų visuomenės įvairovę, susipažįsta su klausimu, išklauso ekspertus bei vieni kitus ir susitaria dėl rekomendacijų.",
+        "when": "Kai klausimas susijęs su vertybėmis ir kompromisais, o sprendimų priėmėjas pasirengęs atsakyti į rezultatą.",
+        "used": "[GAP: pavyzdys iš praktikos, iš komandos]"
+      },
+      "steps": [
+        "run"
+      ],
+      "aim": "decide"
+    },
+    {
+      "en": {
+        "title": "Deep-listening interview",
+        "what": "A long, loosely structured conversation in which the interviewer follows the participant's own account instead of a fixed list of questions.",
+        "when": "You need to understand experience and meaning before deciding what to ask a larger group.",
+        "used": "[GAP: an example from practice, from the team]"
+      },
+      "lt": {
+        "title": "Giluminis įsiklausymo interviu",
+        "what": "Ilgas, laisvos struktūros pokalbis, kuriame tyrėjas seka paties dalyvio pasakojimą, o ne iš anksto parengtą klausimų sąrašą.",
+        "when": "Kai reikia suprasti patirtį ir prasmes prieš sprendžiant, ko klausti didesnės grupės.",
+        "used": "[GAP: pavyzdys iš praktikos, iš komandos]"
+      },
+      "steps": [
+        "run"
+      ],
+      "aim": "understand"
+    },
+    {
+      "en": {
+        "title": "Focus group",
+        "what": "A moderated discussion with six to ten people who share an experience, used to hear how views are formed and argued in a group.",
+        "when": "You want the range of views on a topic and the reasons behind them, not how common each view is.",
+        "used": "Team members ran focus groups on public trust in science within INFODEMIJA."
+      },
+      "lt": {
+        "title": "Fokus grupė",
+        "what": "Moderuojama šešių-dešimties žmonių, kuriuos sieja bendra patirtis, diskusija, leidžianti išgirsti, kaip nuomonės formuojasi ir argumentuojamos grupėje.",
+        "when": "Kai rūpi nuomonių įvairovė ir jų priežastys, o ne tai, kiek kuri nuomonė paplitusi.",
+        "used": "Komandos nariai vedė fokus grupes apie visuomenės pasitikėjimą mokslu projekte INFODEMIJA."
+      },
+      "steps": [
+        "run"
+      ],
+      "aim": "understand"
+    },
+    {
+      "en": {
+        "title": "Scenario workshop",
+        "what": "Residents, experts and local actors build several possible futures for a place or issue together and work out what each would require.",
+        "when": "The future is uncertain and different groups need a shared picture before they can plan.",
+        "used": "In CLIMAS (Horizon Europe), team members ran a pilot scenario workshop in the Vilnius Living Lab on 8 October 2023: twelve participants, four scenarios, eight evaluation criteria."
+      },
+      "lt": {
+        "title": "Scenarijų dirbtuvės",
+        "what": "Gyventojai, ekspertai ir vietos veikėjai kartu kuria kelis galimus vietovės ar klausimo ateities scenarijus ir aiškinasi, ko kiekvienam jų reikėtų.",
+        "when": "Kai ateitis neapibrėžta, o skirtingoms grupėms reikia bendro vaizdo, kad galėtų planuoti.",
+        "used": "Projekte CLIMAS („Europos horizontas“) komandos nariai 2023 m. spalio 8 d. Vilniaus gyvojoje laboratorijoje vedė bandomąsias scenarijų dirbtuves: dvylika dalyvių, keturi scenarijai, aštuoni vertinimo kriterijai."
+      },
+      "steps": [
+        "run"
+      ],
+      "aim": "design"
+    },
+    {
+      "en": {
+        "title": "Living lab",
+        "what": "A real place where residents, researchers, public bodies and businesses test and adjust solutions together over months or years.",
+        "when": "A solution has to work in everyday conditions and needs repeated rounds with the same community.",
+        "used": "Team members worked in the Vilnius Aukštamiestis Living Lab within CLIMAS (Horizon Europe)."
+      },
+      "lt": {
+        "title": "Gyvoji laboratorija",
+        "what": "Reali vieta, kurioje gyventojai, tyrėjai, viešosios institucijos ir verslas mėnesius ar metus kartu išbando ir tobulina sprendimus.",
+        "when": "Kai sprendimas turi veikti kasdienėmis sąlygomis ir jam reikia kelių bandymų su ta pačia bendruomene.",
+        "used": "Komandos nariai dirbo Vilniaus Aukštamiesčio gyvojoje laboratorijoje projekte CLIMAS („Europos horizontas“)."
+      },
+      "steps": [
+        "run"
+      ],
+      "aim": "design"
+    },
+    {
+      "en": {
+        "title": "Participatory workshop",
+        "what": "A structured working session in which practitioners and community members produce something together, such as criteria, priorities or a draft tool.",
+        "when": "Those affected by a decision should shape it, not only comment on it.",
+        "used": "Team members designed and ran participatory workshops with heritage practitioners and minority community voices on digitisation decisions within DIGICHer (Horizon Europe)."
+      },
+      "lt": {
+        "title": "Dalyvaujamosios dirbtuvės",
+        "what": "Struktūruotas darbo užsiėmimas, kuriame praktikai ir bendruomenės nariai kartu sukuria ką nors konkretaus: kriterijus, prioritetus ar įrankio juodraštį.",
+        "when": "Kai tie, kuriuos sprendimas paliečia, turi jį formuoti, o ne tik komentuoti.",
+        "used": "Komandos nariai sukūrė ir vedė dalyvaujamąsias dirbtuves su paveldo specialistais ir mažumų bendruomenių atstovais apie skaitmeninimo sprendimus projekte DIGICHer („Europos horizontas“)."
+      },
+      "steps": [
+        "run"
+      ],
+      "aim": "design"
+    },
+    {
+      "steps": [
+        "sense"
+      ],
+      "aim": "understand",
+      "en": {
+        "title": "Validation in focus groups",
+        "what": "Draft findings or strategies are taken back to groups of the people they concern, who confirm, correct or reject them.",
+        "when": "You have results from a survey or analysis and need to know whether they hold for real people.",
+        "used": "In INFODEMIJA, draft communication strategies built on a survey of 1,005 people were tested with 56 focus group participants, and five were validated."
+      },
+      "lt": {
+        "title": "Patikrinimas fokus grupėse",
+        "what": "Išvadų ar strategijų juodraščiai grąžinami žmonių, kuriuos jie liečia, grupėms: jos patvirtina, pataiso arba atmeta.",
+        "when": "Kai turite apklausos ar analizės rezultatus ir reikia sužinoti, ar jie tinka tikriems žmonėms.",
+        "used": "Projekte INFODEMIJA komunikacijos strategijų juodraščiai, parengti remiantis 1 005 žmonių apklausa, buvo patikrinti su 56 fokus grupių dalyviais; patvirtintos penkios."
+      }
+    },
+    {
+      "steps": [
+        "act"
+      ],
+      "aim": "evaluate",
+      "en": {
+        "title": "Self-assessment index",
+        "what": "A scored checklist across several dimensions that an organisation fills in to see how participatory its own project is.",
+        "when": "You want to compare projects or track one over time without commissioning an external evaluation.",
+        "used": "DIGICHer (Horizon Europe) turned its lessons into the Digital Co-Creation Index, a scored web tool across six dimensions."
+      },
+      "lt": {
+        "title": "Įsivertinimo indeksas",
+        "what": "Balais vertinamas kelių dimensijų klausimynas, kurį organizacija užpildo, kad pamatytų, kiek dalyvaujamasis yra jos pačios projektas.",
+        "when": "Kai norite palyginti projektus ar stebėti vieną laikui bėgant neužsakydami išorinio vertinimo.",
+        "used": "DIGICHer („Europos horizontas“) savo pamokas pavertė Skaitmeninės bendrakūros indeksu: balais vertinamu internetiniu įrankiu, apimančiu šešias dimensijas."
+      }
+    },
+    {
+      "steps": [
+        "act"
+      ],
+      "aim": "evaluate",
+      "en": {
+        "title": "Monitoring institutional change",
+        "what": "A list of planned changes in rules, structures and practice is tracked over time, together with surveys and interviews.",
+        "when": "The aim is to change how an institution works, not only to run events.",
+        "used": "At VILNIUS TECH, the INCENTIVE Citizen Science Hub tracked 24 planned institutional changes over 30 months, with a stakeholder survey (N=140) and 19 interviews."
+      },
+      "lt": {
+        "title": "Institucinių pokyčių stebėsena",
+        "what": "Planuotų taisyklių, struktūrų ir praktikos pokyčių sąrašas stebimas laikui bėgant kartu su apklausomis ir interviu.",
+        "when": "Kai tikslas yra pakeisti institucijos veikimą, o ne tik surengti renginius.",
+        "used": "VILNIUS TECH INCENTIVE piliečių mokslo centras 30 mėnesių stebėjo 24 planuotus institucinius pokyčius, pasitelkdamas suinteresuotųjų šalių apklausą (N=140) ir 19 interviu."
+      }
+    }
+  ]
+}

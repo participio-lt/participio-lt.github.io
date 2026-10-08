@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "lt": {
+        "number": "20+",
+        "label": "ES projektų, kuriems vadovavo ar kartu vadovavo komandos nariai"
+      },
+      "en": {
+        "number": "20+",
+        "label": "EU projects led or co-led by team members"
+      }
+    },
+    {
+      "lt": {
+        "number": "100+",
+        "label": "Komandos narių pateiktų paraiškų"
+      },
+      "en": {
+        "number": "100+",
+        "label": "Proposals submitted by team members"
+      }
+    },
+    {
+      "lt": {
+        "number": "1 400+",
+        "label": "Piliečių, įtrauktų komandos narių darbuose"
+      },
+      "en": {
+        "number": "1,400+",
+        "label": "Citizens engaged across team members' work"
+      }
+    },
+    {
+      "lt": {
+        "number": "10+",
+        "label": "Šalių, kuriose vykdyti lauko tyrimai"
+      },
+      "en": {
+        "number": "10+",
+        "label": "Countries of fieldwork experience"
+      }
+    },
+    {
+      "lt": {
+        "number": "50+",
+        "label": "Komandos parengtų publikacijų ir ataskaitų"
+      },
+      "en": {
+        "number": "50+",
+        "label": "Publications & reports authored by the team"
+      }
+    }
+  ]
+}

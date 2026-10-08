@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "en": {
+        "title": "Research design and participatory methodology",
+        "text": "From deliberative formats to evaluation frameworks for EU consortia."
+      },
+      "lt": {
+        "title": "Tyrimų dizainas ir dalyvaujamoji metodologija",
+        "text": "Nuo svarstomųjų formatų iki vertinimo sistemų ES konsorciumams."
+      }
+    },
+    {
+      "en": {
+        "title": "Participatory research and qualitative analysis",
+        "text": "Across climate, heritage and science communication projects."
+      },
+      "lt": {
+        "title": "Dalyvaujamieji tyrimai ir kokybinė analizė",
+        "text": "Klimato, paveldo ir mokslo komunikacijos projektuose."
+      }
+    },
+    {
+      "en": {
+        "title": "EU grants and proposal development",
+        "text": "Proposal development, consortium coordination and reporting for Horizon Europe, Interreg and Creative Europe."
+      },
+      "lt": {
+        "title": "ES finansavimas ir paraiškų rengimas",
+        "text": "Paraiškų rengimas, konsorciumų koordinavimas ir ataskaitų teikimas programose „Europos horizontas“, „Interreg“ ir „Kūrybiška Europa“."
+      }
+    },
+    {
+      "en": {
+        "title": "Workshops and facilitation",
+        "text": "Workshops, living labs and community dialogue that turn contested questions into structured, usable conversations."
+      },
+      "lt": {
+        "title": "Dirbtuvės ir fasilitavimas",
+        "text": "Dirbtuvės, gyvosios laboratorijos ir bendruomenių dialogas, ginčytinus klausimus paverčiantys struktūruotais, naudingais pokalbiais."
+      }
+    }
+  ]
+}

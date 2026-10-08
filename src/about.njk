@@ -1,0 +1,69 @@
+---
+layout: base.njk
+key: about
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ routes.about[lang] }}"
+---
+{%- set t = i18n[lang] %}
+{%- import "macros.njk" as ui %}
+  <section class="block first">
+    <div class="container">
+      <h1 class="page-title">{{ t.partner_h1 }}</h1>
+      <p class="block-lede">{{ t.partner_lede }}</p>
+      <p><a class="cta-button dark" href="mailto:info@participio.eu">info@participio.eu</a></p>
+    </div>
+  </section>
+  <section class="block">
+    <div class="container">
+      <h2>{{ t.track_h2 }}</h2>
+    </div>
+  </section>
+{% include "sections/figures.njk" %}
+  <section class="block">
+    <div class="container">
+      <h2>{{ t.bring_h2 }}</h2>
+      <div class="services">
+        {%- for x in db.services.items %}
+        <details class="service-row">
+          <summary><span class="service-n">{{ loop.index }}</span><span class="service-title">{{ x[lang].title }}</span><span class="service-who">{{ x[lang].who }}</span></summary>
+          <div class="service-more">
+            <p>{{ x[lang].summary }}</p>
+            <p><strong>{{ t.what_you_get }}</strong> {{ x[lang].text }}</p>
+            {% if x[lang].details and not (x[lang].details | hasGap) %}<p class="practice">{{ x[lang].details }}</p>{% endif %}
+          </div>
+        </details>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+  <section class="block" id="work">
+    <div class="container">
+      <h2>{{ t.sections.cases.h1 }}</h2>
+      <ul class="work-list">
+        {%- for x in db.work.items %}
+        <li class="work-row">
+          <span class="work-name"><strong>{{ x.name[lang] or x.name }}</strong><span>{{ x.meta[lang] }}</span></span>
+          <span class="work-main">{{ x[lang] }}
+            <span class="work-links">{% for l in x.links %}<a href="{% if l.url %}{{ l.url }}" target="_blank" rel="noopener{% else %}{{ routes[l.route][lang] }}{{ l.slug }}/{% endif %}">{{ l[lang] }} &rarr;</a>{% endfor %}</span>
+          </span>
+        </li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </section>
+{% include "sections/experts.njk" %}
+{% include "sections/collaborators.njk" %}
+  <section class="block last">
+    <div class="container">
+      <div class="cta">
+        <div>
+          <h2>{{ t.building_a_proposal_that_needs | safe }}</h2>
+          <p>{{ t.cta_text }}</p>
+        </div>
+        <a class="cta-button" href="mailto:info@participio.eu">info@participio.eu</a>
+      </div>
+    </div>
+  </section>

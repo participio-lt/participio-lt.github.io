@@ -1,0 +1,156 @@
+{
+  "items": [
+    {
+      "key": "fund",
+      "en": {
+        "title": "Fund",
+        "lede": "Find the programme that fits and write participation into the proposal so that it is funded, not just mentioned.",
+        "questions": [
+          "Which programme and call fits what you want to do?",
+          "What does the call text ask for, and how will evaluators read your answer?",
+          "Where does participation sit in the work plan: its own tasks, deliverables and budget, or one paragraph?",
+          "Should you lead or join as a partner?",
+          "Who can help you prepare for free, and when is that not enough?"
+        ],
+        "ring": "programme · call text · work plan · budget · partners"
+      },
+      "lt": {
+        "title": "Finansuoti",
+        "lede": "Raskite tinkamą programą ir aprašykite dalyvavimą paraiškoje taip, kad jis būtų finansuotas, o ne tik paminėtas.",
+        "questions": [
+          "Kuri programa ir kvietimas tinka tam, ką norite daryti?",
+          "Ko prašo kvietimo tekstas ir kaip jūsų atsakymą skaitys vertintojai?",
+          "Kur darbo plane yra dalyvavimas: atskiros užduotys, rezultatai ir biudžetas ar viena pastraipa?",
+          "Vadovauti ar prisijungti partnerio teisėmis?",
+          "Kas gali padėti pasirengti nemokamai ir kada to nebepakanka?"
+        ],
+        "ring": "programa · kvietimas · darbo planas · biudžetas · partneriai"
+      }
+    },
+    {
+      "key": "plan",
+      "en": {
+        "title": "Plan",
+        "lede": "Decide why you are involving people, what they can really influence, and who has to be in the room.",
+        "questions": [
+          "What decision or knowledge will this feed into?",
+          "How much say will participants have: are they informed, consulted, or deciding with you?",
+          "Who is affected, and who is usually missing?",
+          "What time and budget do you have?",
+          "Do you need ethics approval or consent rules before you start?"
+        ],
+        "ring": "purpose · influence · who is affected · budget · ethics"
+      },
+      "lt": {
+        "title": "Planuoti",
+        "lede": "Nuspręskite, kodėl įtraukiate žmones, ką jie iš tikrųjų gali paveikti ir kas turi dalyvauti.",
+        "questions": [
+          "Kokiam sprendimui ar žinioms tai pasitarnaus?",
+          "Kiek galios turės dalyviai: jie informuojami, su jais tariamasi ar sprendžiama kartu?",
+          "Ką tai paliečia ir ko paprastai trūksta prie stalo?",
+          "Kiek turite laiko ir lėšų?",
+          "Ar prieš pradedant reikia etikos leidimo ar sutikimo taisyklių?"
+        ],
+        "ring": "tikslas · įtaka · kas paliečiamas · biudžetas · etika"
+      }
+    },
+    {
+      "key": "recruit",
+      "en": {
+        "title": "Recruit",
+        "lede": "Find and invite people so that the group reflects those the question affects.",
+        "questions": [
+          "Lottery, open call or targeted invitation?",
+          "How many people do you need, and from which groups?",
+          "What keeps people from coming, and what removes it: payment, childcare, language, timing?",
+          "How will you reach people who do not answer letters or emails?"
+        ],
+        "ring": "lottery · open call · invitation · barriers · who is missing"
+      },
+      "lt": {
+        "title": "Kviesti",
+        "lede": "Suraskite ir pakvieskite žmones taip, kad grupė atspindėtų tuos, kuriuos klausimas paliečia.",
+        "questions": [
+          "Burtai, atviras kvietimas ar tikslinis kvietimas?",
+          "Kiek žmonių reikia ir iš kokių grupių?",
+          "Kas trukdo žmonėms ateiti ir kas tai pašalina: atlygis, vaikų priežiūra, kalba, laikas?",
+          "Kaip pasieksite tuos, kurie neatsako į laiškus?"
+        ],
+        "ring": "burtai · atviras kvietimas · kliūtys · ko trūksta"
+      }
+    },
+    {
+      "key": "run",
+      "en": {
+        "title": "Run",
+        "lede": "Hold the sessions so that everyone can contribute, not only the confident.",
+        "questions": [
+          "Which format fits your question and your group?",
+          "Who facilitates, and are they seen as neutral?",
+          "How will quiet voices be heard next to loud ones?",
+          "How will you record what is said without putting people off?"
+        ],
+        "ring": "format · facilitation · quiet voices · recording"
+      },
+      "lt": {
+        "title": "Vesti",
+        "lede": "Veskite susitikimus taip, kad prisidėti galėtų visi, ne tik drąsiausi.",
+        "questions": [
+          "Koks formatas tinka jūsų klausimui ir grupei?",
+          "Kas moderuoja ir ar jis laikomas neutraliu?",
+          "Kaip bus išgirsti tylesni balsai šalia garsių?",
+          "Kaip užfiksuosite, kas pasakyta, neatbaidydami žmonių?"
+        ],
+        "ring": "formatas · moderavimas · tylesni balsai · fiksavimas"
+      }
+    },
+    {
+      "key": "sense",
+      "en": {
+        "title": "Make sense",
+        "lede": "Turn what was said into findings that participants would recognise as theirs.",
+        "questions": [
+          "Who analyses the material, and do participants check the result?",
+          "How do you keep disagreement visible instead of averaging it away?",
+          "What goes back to participants, and when?"
+        ],
+        "ring": "analysis · checking back · disagreement · reporting"
+      },
+      "lt": {
+        "title": "Suprasti",
+        "lede": "Paverskite tai, kas pasakyta, išvadomis, kurias dalyviai atpažintų kaip savo.",
+        "questions": [
+          "Kas analizuoja medžiagą ir ar dalyviai patikrina rezultatą?",
+          "Kaip išlaikyti nesutarimus matomus, o ne juos suvidurkinti?",
+          "Kas ir kada grįžta dalyviams?"
+        ],
+        "ring": "analizė · patikrinimas · nesutarimai · ataskaita"
+      }
+    },
+    {
+      "key": "act",
+      "en": {
+        "title": "Act and evaluate",
+        "lede": "Show what changed because people took part, and learn what to do differently next time.",
+        "questions": [
+          "Who has to respond to the results, and by when?",
+          "What was taken up, what was not, and why?",
+          "What worked, for whom?",
+          "What will you change next time?"
+        ],
+        "ring": "response · uptake · what worked · next time"
+      },
+      "lt": {
+        "title": "Veikti ir vertinti",
+        "lede": "Parodykite, kas pasikeitė dėl to, kad žmonės dalyvavo, ir išsiaiškinkite, ką kitą kartą daryti kitaip.",
+        "questions": [
+          "Kas ir iki kada turi atsakyti į rezultatus?",
+          "Kas buvo priimta, kas ne ir kodėl?",
+          "Kas pavyko ir kam?",
+          "Ką kitą kartą keisite?"
+        ],
+        "ring": "atsakas · kas priimta · kas pavyko · kitą kartą"
+      }
+    }
+  ]
+}

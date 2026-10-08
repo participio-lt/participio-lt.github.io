@@ -1,0 +1,118 @@
+<!doctype html>
+{%- set t = i18n[lang] %}
+{%- set home = routes.home[lang] %}
+{%- set other = 'en' if lang == 'lt' else 'lt' %}
+{%- set otherUrl = altUrl or routes[key][other] %}
+{%- set labels = { insights: t.sections.cases.title, opinions: t.sections.opinions.title, news: t.sections.news.title, about: t.about } %}
+{%- set hasInsights = (db.insights | inLang(lang)).length %}
+{%- set ltUrl = page.url if lang == 'lt' else otherUrl %}
+{%- set enUrl = page.url if lang == 'en' else otherUrl %}
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{% if pageTitle or labels[key] %}{{ pageTitle or labels[key] }} | Participio{% else %}{{ t.site_title }}{% endif %}</title>
+<meta name="description" content="{{ description or t.site_description }}" />
+<link rel="alternate" hreflang="lt" href="https://participio.lt{{ ltUrl }}" />
+<link rel="alternate" hreflang="en" href="https://participio.lt{{ enUrl }}" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/styles.css" />
+<link rel="stylesheet" href="/home.css" />
+<link rel="stylesheet" href="/theme.css" />
+<link rel="stylesheet" href="/bw.css" />
+</head>
+<body class="dense">
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="{{ home }}" class="brand"><span class="brand-mark"></span><span class="brand-name">Particip<span class="brand-em">io</span></span></a>
+      <div class="nav-links">
+        {%- for k in ['opinions', 'news', 'about'] %}
+        <a href="{{ routes[k][lang] }}"{% if key == k %} class="active"{% endif %}>{{ labels[k] | safe }}</a>
+        {%- endfor %}
+      </div>
+      <div class="nav-lang"><a href="{{ enUrl }}" lang="en"{% if lang == 'en' %} class="on"{% endif %}>EN</a> / <a href="{{ ltUrl }}" lang="lt"{% if lang == 'lt' %} class="on"{% endif %}>LT</a></div>
+    </div>
+  </nav>
+
+<main>
+{{ content | safe }}
+</main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-cols">
+      <div>
+        <a href="{{ home }}" class="brand"><span class="brand-mark"></span><span class="brand-name">Particip<span class="brand-em">io</span></span></a>
+        <p class="footer-about">{{ t.footer_about }}</p>
+      </div>
+      <div>
+        <h4>{{ t.footer_contact }}</h4>
+        <ul>
+          <li><a href="mailto:info@participio.eu">info@participio.eu</a></li>
+          <li>{{ t.footer_place }}</li>
+          {%- for f in db.about.facts %}
+          {%- if not ('[GAP' in f[lang].value) and not ('@' in f[lang].value) and f.footer %}
+          <li>{{ f[lang].label }}: {{ f[lang].value }}</li>
+          {%- endif %}
+          {%- endfor %}
+        </ul>
+      </div>
+      <div>
+        <h4>{{ t.footer_site }}</h4>
+        <ul>
+          {%- for k in ['opinions', 'news', 'about'] %}
+          <li><a href="{{ routes[k][lang] }}">{{ labels[k] | safe }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-base">
+      <span>&copy; 2026 Participio</span>
+      <span><a href="{{ enUrl }}" lang="en">English</a> · <a href="{{ ltUrl }}" lang="lt">Lietuvių</a></span>
+    </div>
+  </footer>
+
+  <script>
+    // Form: radio option visual state + submit (visual-only)
+    document.querySelectorAll('.opt').forEach(o => {
+      o.addEventListener('click', () => {
+        document.querySelectorAll('.opt').forEach(x => x.classList.remove('checked'));
+        o.classList.add('checked');
+        const r = o.querySelector('input'); if (r) r.checked = true;
+      });
+    });
+    const cf = document.getElementById('contact-form');
+    if (cf) cf.addEventListener('submit', (e) => {
+      e.preventDefault();
+      document.body.classList.add('sent');
+      const tgt = document.querySelector('.contact-grid');
+      if (tgt) window.scrollTo({ top: tgt.offsetTop - 80, behavior: 'smooth' });
+    });
+
+    // Scroll-spy: highlight active nav link based on visible section
+    (function(){
+      const links = Array.from(document.querySelectorAll('.nav-links a[href^="#"]'));
+      const map = new Map();
+      links.forEach(a => {
+        const id = a.getAttribute('href').slice(1);
+        const el = document.getElementById(id);
+        if (el) map.set(el, a);
+      });
+      if (!map.size) return;
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(en => {
+          const a = map.get(en.target);
+          if (!a) return;
+          if (en.isIntersecting) {
+            links.forEach(x => x.classList.remove('active'));
+            a.classList.add('active');
+          }
+        });
+      }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
+      map.forEach((_, el) => io.observe(el));
+    })();
+  </script>
+</body>
+</html>

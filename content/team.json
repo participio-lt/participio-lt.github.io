@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "name": "Dr. Monika Mačiulienė",
+      "image": "/images/team-monika.jpg",
+      "lt": {
+        "role": "Vyresnioji tyrėja",
+        "text": "Vadovauja tyrimų dizainui ir dalyvaujamajai metodologijai: nuo svarstomųjų formatų iki vertinimo sistemų ES konsorciumams.",
+        "tags": [
+          "Tyrimų dizainas",
+          "Dalyvaujamoji metodologija",
+          "Vertinimas",
+          "Piliečių mokslas"
+        ]
+      },
+      "en": {
+        "role": "Senior Researcher",
+        "text": "Leads research design and participatory methodology across the practice from deliberative formats to evaluation frameworks for EU consortia.",
+        "tags": [
+          "Research design",
+          "Participatory methodology",
+          "Evaluation",
+          "Citizen science"
+        ]
+      }
+    },
+    {
+      "name": "Dr. Austė Aleksandravičiūtė-Šviažienė",
+      "image": "/images/team-auste.jpg",
+      "lt": {
+        "role": "Vyresnioji tyrėja",
+        "text": "Turi dalyvaujamųjų tyrimų ir kokybinės analizės patirties klimato, paveldo ir mokslo komunikacijos projektuose.",
+        "tags": [
+          "Dalyvaujamieji tyrimai",
+          "Kokybinė analizė",
+          "Klimatas",
+          "Paveldas",
+          "Mokslo komunikacija"
+        ]
+      },
+      "en": {
+        "role": "Senior Researcher",
+        "text": "Brings expertise in participatory research and qualitative analysis across climate, heritage, and science-communication projects.",
+        "tags": [
+          "Participatory research",
+          "Qualitative analysis",
+          "Climate",
+          "Heritage",
+          "Science communication"
+        ]
+      }
+    },
+    {
+      "name": "Ieva Anužė",
+      "image": "/images/team-ieva-zoom2.jpg",
+      "lt": {
+        "role": "ES projektų finansavimo vadovė",
+        "text": "Vadovauja paraiškų rengimui, konsorciumų koordinavimui ir ataskaitų teikimui, gerai išmano „Europos horizonto“, „Interreg“ ir „Kūrybiškos Europos“ reikalavimus.",
+        "tags": [
+          "ES finansavimas",
+          "Paraiškų rengimas",
+          "Konsorciumų koordinavimas",
+          "Ataskaitos"
+        ]
+      },
+      "en": {
+        "role": "EU Grants Manager",
+        "text": "Steers proposal development, consortium coordination, and reporting fluent in Horizon Europe, Interreg, and Creative Europe requirements.",
+        "tags": [
+          "EU grants",
+          "Proposal development",
+          "Consortium coordination",
+          "Reporting"
+        ]
+      }
+    },
+    {
+      "name": "Gintarė Gulevičiūtė",
+      "image": "/images/team-gintare-portrait.jpg",
+      "lt": {
+        "role": "Dirbtuvių ir fasilitavimo vadovė",
+        "text": "Kuria ir veda dirbtuves, gyvąsias laboratorijas ir bendruomenių dialogą, ginčytinus klausimus paversdama struktūruotais, naudingais pokalbiais.",
+        "tags": [
+          "Dirbtuvės",
+          "Fasilitavimas",
+          "Gyvosios laboratorijos",
+          "Bendruomenių dialogas"
+        ]
+      },
+      "en": {
+        "role": "Workshop & Facilitation Lead",
+        "text": "Designs and runs workshops, living labs, and community dialogue turning contested questions into structured, usable conversations.",
+        "tags": [
+          "Workshops",
+          "Facilitation",
+          "Living labs",
+          "Community dialogue"
+        ]
+      }
+    }
+  ]
+}

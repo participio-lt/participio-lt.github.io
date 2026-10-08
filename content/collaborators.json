@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "name": "DIGICHer",
+      "logo": "/assets/uploads/logos/digicher.webp",
+      "url": "https://www.digicher-project.eu/"
+    },
+    {
+      "name": "CLIMAS",
+      "logo": "/assets/uploads/logos/climas.png",
+      "url": "https://www.climas-project.eu/"
+    },
+    {
+      "name": "VILNIUS TECH",
+      "logo": "/assets/uploads/logos/vilniustech.png",
+      "url": "https://vilniustech.lt/"
+    },
+    {
+      "name": "pilieciumokslas.lt",
+      "logo": "",
+      "mark": "dot",
+      "url": "https://www.pilieciumokslas.lt/"
+    },
+    {
+      "name": "RESCUE",
+      "logo": "",
+      "url": ""
+    },
+    {
+      "name": "INFODEMIJA",
+      "logo": "",
+      "mark": "rings",
+      "url": "https://www.infodemija.lt/"
+    },
+    {
+      "name": "Network to Promote Linguistic Diversity",
+      "logo": "/assets/uploads/logos/npld.png",
+      "url": "https://npld.eu/"
+    },
+    {
+      "name": "Wooden Architecture Centre, Vilnius City Museum",
+      "logo": "/assets/uploads/logos/mac.svg",
+      "url": "https://vilniausmuziejus.lt/"
+    }
+  ]
+}

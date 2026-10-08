@@ -1,0 +1,23 @@
+  <!-- Selected projects -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow"><span class="eyebrow-num"></span>{{ t.selected_work | safe }}</span>
+          <h2 style="margin-top:20px">{{ t.recent_collaborations | safe }}</h2>
+        </div>
+        <p class="lede">{{ t.a_subset_of_recent_engagements | safe }}</p>
+      </div>
+
+      <div class="projects-grid">
+        {%- for x in db.collaborations.items %}
+        <a class="project" href="{{ x.url }}" target="_blank" rel="noopener">
+          <div class="ph has-img"><img src="{{ x.image }}" alt="{{ x[lang].alt }}" loading="lazy" /></div>
+          <div class="project-meta"><span>{{ t.as_part_of | safe }}</span><span>{{ x.project }}</span></div>
+          <h3>{{ x[lang].title }}</h3>
+          <p>{{ x[lang].text }}</p>
+        </a>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,73 @@
+{
+  "items": [
+    {
+      "type": "study",
+      "language": "en",
+      "source": "Miao, Yin, Zhang, Siu, 2025 · Applied Research in Quality of Life",
+      "url": "https://doi.org/10.1007/s11482-025-10490-6",
+      "en": {
+        "title": "Participatory research methods and tools for promoting children's psychological well-being: a systematic review",
+        "text": "Reviews 14 studies and lists the activities and tools used with children and adolescents, rated on Hart's ladder of participation. Open access."
+      },
+      "lt": {
+        "title": "Dalyvaujamųjų tyrimų metodai ir įrankiai vaikų psichologinei gerovei stiprinti: sisteminė apžvalga",
+        "text": "Apžvelgia 14 tyrimų ir išvardija su vaikais ir paaugliais taikytas veiklas bei įrankius, įvertintus pagal Harto dalyvavimo kopėčias. Atvira prieiga."
+      },
+      "steps": [
+        "run"
+      ]
+    },
+    {
+      "type": "collection",
+      "language": "en",
+      "source": "Participedia",
+      "url": "https://participedia.net/",
+      "en": {
+        "title": "Participedia",
+        "text": "A crowdsourced global collection of cases, methods and organisations in public participation."
+      },
+      "lt": {
+        "title": "Participedia",
+        "text": "Bendruomenės pildomas pasaulinis visuomenės dalyvavimo atvejų, metodų ir organizacijų rinkinys."
+      },
+      "steps": [
+        "plan",
+        "run"
+      ]
+    },
+    {
+      "type": "tool",
+      "language": "en",
+      "source": "Engage2020 project",
+      "url": "https://actioncatalogue.eu/",
+      "en": {
+        "title": "Action Catalogue",
+        "text": "An online tool for choosing among participatory methods by criteria such as aim, group size and time."
+      },
+      "lt": {
+        "title": "Action Catalogue",
+        "text": "Internetinis įrankis, padedantis pasirinkti dalyvaujamąjį metodą pagal tikslą, grupės dydį, laiką ir kitus kriterijus."
+      },
+      "steps": [
+        "plan"
+      ]
+    },
+    {
+      "type": "guide",
+      "language": "en",
+      "source": "European Citizen Science Association (ECSA)",
+      "url": "https://www.ecsa.ngo/10-principles/",
+      "en": {
+        "title": "Ten principles of citizen science",
+        "text": "Ten short principles of good practice in citizen science, available in many languages."
+      },
+      "lt": {
+        "title": "Dešimt piliečių mokslo principų",
+        "text": "Dešimt trumpų gerosios piliečių mokslo praktikos principų, išverstų į daug kalbų."
+      },
+      "steps": [
+        "plan"
+      ]
+    }
+  ]
+}

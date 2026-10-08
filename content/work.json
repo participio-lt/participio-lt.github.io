@@ -1,0 +1,109 @@
+{
+  "items": [
+    {
+      "name": "RESCUE",
+      "meta": {
+        "en": "Horizon Europe, 2027-2029",
+        "lt": "„Europos horizontas“, 2027-2029"
+      },
+      "en": "Participio is the community engagement and citizen science partner in a consortium of twelve partners in eight countries, coordinated by VILNIUS TECH.",
+      "lt": "„Participio“ yra bendruomenių įtraukimo ir piliečių mokslo partneris dvylikos partnerių iš aštuonių šalių konsorciume, kurį koordinuoja VILNIUS TECH.",
+      "links": [
+        {
+          "en": "About the project",
+          "lt": "Apie projektą",
+          "slug": "rescue-one-framework-six-very-different-heritage-sites",
+          "route": "insights"
+        }
+      ]
+    },
+    {
+      "name": "DIGICHer",
+      "meta": {
+        "en": "Horizon Europe, 2024-2027",
+        "lt": "„Europos horizontas“, 2024-2027"
+      },
+      "en": "Participio organised two events for the project: Brussels, 23 September 2026, and Kaunas, 15 October 2026. Our experts take part in the research.",
+      "lt": "„Participio“ projektui organizavo du renginius: Briuselyje 2026 m. rugsėjo 23 d. ir Kaune 2026 m. spalio 15 d. Mūsų ekspertai dalyvauja tyrime.",
+      "links": [
+        {
+          "en": "Brussels event",
+          "lt": "Renginys Briuselyje",
+          "slug": "linguistic-diversity-and-digital-heritage-npld-digicher-brussels",
+          "route": "news"
+        },
+        {
+          "en": "Digitising minority heritage with the community",
+          "lt": "Mažumų paveldo skaitmeninimas kartu su bendruomene",
+          "slug": "digicher-digitising-minority-heritage-with-the-community",
+          "route": "insights"
+        }
+      ]
+    },
+    {
+      "name": "CLIMAS",
+      "meta": {
+        "en": "Horizon Europe, 2023-2025",
+        "lt": "„Europos horizontas“, 2023-2025"
+      },
+      "en": "Work of our experts at VILNIUS TECH, which coordinated the project and led its evaluation.",
+      "lt": "Mūsų ekspertų darbas VILNIUS TECH, kuris koordinavo projektą ir vadovavo jo vertinimui.",
+      "links": [
+        {
+          "en": "Three climate assemblies, three ways to recruit",
+          "lt": "Trys klimato asamblėjos, trys atrankos būdai",
+          "slug": "climas-three-climate-assemblies-three-ways-to-recruit",
+          "route": "insights"
+        },
+        {
+          "en": "Future scenario workshop in Vilnius",
+          "lt": "Ateities scenarijų dirbtuvės Vilniuje",
+          "slug": "climas-future-scenario-workshop-vilnius-living-lab",
+          "route": "insights"
+        }
+      ]
+    },
+    {
+      "name": "INFODEMIJA",
+      "meta": {
+        "en": "Research Council of Lithuania, 2023-2026",
+        "lt": "Lietuvos mokslo taryba, 2023-2026"
+      },
+      "en": "Research by our experts at Mykolas Romeris University on science communication and misinformation in Lithuania. Participio curates the platform.",
+      "lt": "Mūsų ekspertų tyrimas Mykolo Romerio universitete apie mokslo komunikaciją ir dezinformaciją Lietuvoje. „Participio“ kuruoja platformą.",
+      "links": [
+        {
+          "en": "Who is open to misinformation, and who is not",
+          "lt": "Kas atviras dezinformacijai, o kas ne",
+          "slug": "infodemija-who-in-lithuania-is-open-to-misinformation-and-who-is-not",
+          "route": "insights"
+        },
+        {
+          "en": "infodemija.lt",
+          "lt": "infodemija.lt",
+          "url": "https://www.infodemija.lt/"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "\"A Call from the Past\"",
+        "lt": "„Skambutis iš praeities“"
+      },
+      "meta": {
+        "en": "Team initiative, 2026",
+        "lt": "Komandos iniciatyva, 2026"
+      },
+      "en": "A six-stop audio guide along J. Basanavičiaus Street in Vilnius, made by a team member during her studies and tested with the neighbours.",
+      "lt": "Šešių stotelių audiogidas J. Basanavičiaus gatvėje Vilniuje, kurį komandos narė sukūrė studijų metu ir išbandė su kaimynais.",
+      "links": [
+        {
+          "en": "About the audio guide",
+          "lt": "Apie audiogidą",
+          "slug": "a-call-from-the-past-audio-guide-tested-with-neighbours",
+          "route": "insights"
+        }
+      ]
+    }
+  ]
+}

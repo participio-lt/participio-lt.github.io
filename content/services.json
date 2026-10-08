@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "lt": {
+        "title": "Bendruomenių įtraukimas ir piliečių mokslas",
+        "who": "Besiburiantiems konsorciumams",
+        "summary": "Vadovaujame arba prisidedame prie darbo paketų, skirtų įtraukimui, bendrakūrai ir piliečių mokslui, taip pat komunikacijai ir sklaidai.",
+        "text": "Partneris, kuris prisiima šias užduotis ir jų rezultatus, įskaitant dalyvaujamųjų procesų vertinimą. Toks yra mūsų vaidmuo projekte RESCUE („Europos horizontas“, 2027-2029).",
+        "details": "[GAP: format, length, price or \"on request\"]"
+      },
+      "en": {
+        "title": "Community engagement and citizen science",
+        "who": "For consortia in development",
+        "summary": "We lead or contribute to the work packages on engagement, co-creation and citizen science, and on communication and dissemination.",
+        "text": "A partner that takes on these tasks and their deliverables, including the evaluation of participatory processes. This is our role in RESCUE (Horizon Europe, 2027-2029).",
+        "details": "[GAP: format, length, price or \"on request\"]"
+      }
+    },
+    {
+      "lt": {
+        "title": "SHM integracija ir bendrakūros dizainas",
+        "who": "STEM konsorciumų koordinatoriams",
+        "summary": "Suprojektuojame socialinių ir humanitarinių mokslų bei visuomenės dalyvavimo dalį jūsų darbo plane, kad ji turėtų tikras užduotis, o ne vieną pastraipą.",
+        "text": "Dirbame su jūsų darbo planu: kuriam darbo paketui vadovauja SHM partneris, kaip bendrakūros ir piliečių mokslo užduotys tampa rezultatais ir rodikliais ir kaip tai aprašoma B dalyje.",
+        "details": "[GAP: format, length, price or \"on request\"]"
+      },
+      "en": {
+        "title": "SSH integration and co-creation design",
+        "who": "For coordinators of STEM-led consortia",
+        "summary": "We design the social sciences, humanities and participation side of your work plan, so it carries real tasks, not a paragraph.",
+        "text": "We work on your own work plan: which work package the SSH partner leads, how co-creation and citizen science tasks become deliverables and indicators, and how this reads in Part B.",
+        "details": "[GAP: format, length, price or \"on request\"]"
+      }
+    },
+    {
+      "lt": {
+        "title": "Paraiškos peržiūra ir bandomasis vertinimas",
+        "who": "Koordinatoriams ir partneriams, turintiems juodraštį",
+        "summary": "Pastabos jūsų juodraščiui ir balai pagal viešus vertinimo kriterijus, kol paraiškos dar nemato tikri vertintojai.",
+        "text": "Jūsų juodraštį skaitome ne vieną kartą, jam keičiantis. Gaunate rašytines pastabas ir balus pagal kiekvieną kriterijų vertinimo suvestinės formatu.",
+        "details": "[GAP: format, length, price or \"on request\"]"
+      },
+      "en": {
+        "title": "Proposal review and mock evaluation",
+        "who": "For coordinators and partners with a draft",
+        "summary": "Comments on your draft and scores against the published evaluation criteria, before the real evaluators see it.",
+        "text": "We read your draft more than once, as it develops. You get written comments and scores per criterion in the format of an evaluation summary report.",
+        "details": "[GAP: format, length, price or \"on request\"]"
+      }
+    },
+    {
+      "lt": {
+        "title": "Mokymai mokslo padaliniams ir komandoms",
+        "who": "Mokslo padaliniams, institutams ir konsorciumams",
+        "summary": "Grupiniai užsiėmimai lietuvių arba anglų kalba, kuriuose dalyviai dirba su savo paraiškomis.",
+        "text": "Užsiėmimai apie visuomenės dalyvavimą, SHM integraciją ir poveikio dalį, paremti dalyvių atsineštais juodraščiais.",
+        "details": "[GAP: format, length, price or \"on request\"]"
+      },
+      "en": {
+        "title": "Training for research offices and teams",
+        "who": "For research offices, institutes and consortia",
+        "summary": "Group sessions in Lithuanian or English where participants work on their own proposals.",
+        "text": "Sessions on participation, SSH integration and the impact section, built around the drafts people bring.",
+        "details": "[GAP: format, length, price or \"on request\"]"
+      }
+    }
+  ]
+}

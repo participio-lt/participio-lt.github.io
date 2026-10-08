@@ -1,0 +1,14 @@
+  <!-- Photos from our own events and workshops -->
+  <section class="block">
+    <div class="container">
+      <h2>{{ t.gallery_h2 }}</h2>
+      <div class="gallery">
+        {%- for x in db.gallery.items %}
+        <figure{% if loop.first %} class="big"{% endif %}>
+          <img src="{{ x.image }}" alt="{{ x[lang] if not (x[lang] | hasGap) else '' }}" loading="lazy">
+          <figcaption>{{ x[lang] | mark | safe }}</figcaption>
+        </figure>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>

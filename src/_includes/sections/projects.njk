@@ -1,0 +1,15 @@
+        {%- for x in db.projects.items %}
+        {%- set link = x[lang].url %}
+        <{% if link %}a href="{{ link }}"{% if 'http' in link %} target="_blank" rel="noopener"{% endif %}{% else %}article{% endif %} class="card case">
+          <div class="cover s-{{ ['plan', 'recruit', 'run', 'sense', 'fund'][loop.index0 % 5] }}">{% if x.image %}<img src="{{ x.image }}" alt="" loading="lazy">{% endif %}</div>
+          <div class="card-body">
+            <div class="chips">
+              <span class="chip s-plan">Participio</span>
+              <span class="chip plain">{{ x[lang].label }}</span>
+            </div>
+            <h3>{{ x[lang].title }}</h3>
+            <p>{{ x[lang].text }}{% if x[lang].role %} <strong>{{ t.our_role }}</strong> {{ x[lang].role }}{% endif %}</p>
+            <p class="practice">{{ x.dates if lang == "en" else (x.dates_lt or x.dates) }}</p>
+          </div>
+        </{% if link %}a{% else %}article{% endif %}>
+        {%- endfor %}

@@ -1,0 +1,239 @@
+{
+  "updated": "2026-10-08",
+  "items": [
+    {
+      "deadline": "2026-10-16",
+      "when": null,
+      "name": "EU Code Week Grants, Round 2",
+      "what": "Small grassroots coding and digital skills activities run during EU Code Week.",
+      "funder": "Foundation",
+      "amount": "EUR 9,918",
+      "url": "https://codeweek.eu/blog/eu-code-week-grants-2026/"
+    },
+    {
+      "deadline": "2026-11-05",
+      "when": null,
+      "name": "New ways of risk awareness and disaster...",
+      "what": "Research on new ways of building public risk awareness and community disaster preparedness.",
+      "funder": "Horizon",
+      "amount": "EUR 6,000,000, 2 grants at EUR 3,000,000",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2026-01-DRS-01"
+    },
+    {
+      "deadline": "2026-11-10",
+      "when": null,
+      "name": "Culture Helps Solidarity, Collaboration...",
+      "what": "Cultural partnerships supporting displaced Ukrainians, refugees and veterans, with a Ukrainian-led organisation involved.",
+      "funder": "Foundation",
+      "amount": "EUR 20,000 for two partners, EUR 30,000...",
+      "url": "https://culturalfoundation.eu/communities/open-calls/"
+    },
+    {
+      "deadline": "2026-12-01",
+      "when": null,
+      "name": "Inhabitants' experiences of neighbourhoods...",
+      "what": "Research into how inhabitants experience their neighbourhoods, and how that supports health and wellbeing.",
+      "funder": "Horizon",
+      "amount": "EUR 5,000,000",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NEB-2026-01-PARTICIPATION-03"
+    },
+    {
+      "deadline": "2026-12-01",
+      "when": null,
+      "name": "New European Bauhaus 2026, other topics",
+      "what": "New European Bauhaus projects on neighbourhood spatial design, homelessness, reuse of vacant space or thermal comfort.",
+      "funder": "Horizon",
+      "amount": null,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search"
+    },
+    {
+      "deadline": "2027-01-27",
+      "when": "opens 18 Nov",
+      "name": "Nordic Council of Ministers Prosperous Future...",
+      "what": "Nordic-Baltic civil society cooperation on a green, democratic and resilient region under Vision 2030.",
+      "funder": "Nordic",
+      "amount": "EUR 45,000 to 65,000 per project",
+      "url": "https://www.ncmprosperousfuturegrants.org/guidelines"
+    },
+    {
+      "deadline": "2027-01-31",
+      "when": null,
+      "name": "Open Lithuania Foundation VERTA! II bilateral...",
+      "what": "Small bilateral exchange projects between a Lithuanian NGO and an NGO in another EU country, on EU values.",
+      "funder": "Lithuania",
+      "amount": null,
+      "url": "https://olf.lt/verta-2etapas/kvietimas-dvisalio-bendradarbiavimo-projektu-finansavimui/"
+    },
+    {
+      "deadline": "2027-02-24",
+      "when": "opens 21 Oct",
+      "name": "CERV European Remembrance, democratic...",
+      "what": "Remembrance projects on democratic transitions and the rebuilding of democratic institutions in Europe.",
+      "funder": "CERV",
+      "amount": "EUR 28,000,000",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/CERV-2026-CITIZENS-REM-TRANSITION"
+    },
+    {
+      "deadline": "2027-03-11",
+      "when": "opens 8 Dec",
+      "name": "Pillar III: Science comes to town 2029",
+      "what": "A city-based year of science engagement programming hosting EUCYS 2029.",
+      "funder": "Horizon",
+      "amount": "EUR 6,000,000, 1 grant only",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2027-05-ERA-03"
+    },
+    {
+      "deadline": "2027-03-11",
+      "when": "opens 8 Dec",
+      "name": "Pillar III: public engagement in R&I and...",
+      "what": "Projects that promote public engagement in research and innovation and raise scientific literacy.",
+      "funder": "Horizon",
+      "amount": "EUR 1,000,000",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2027-05-ERA-04"
+    },
+    {
+      "deadline": "2027-04-08",
+      "when": "opens 4 Feb",
+      "name": "Participatory research on health of...",
+      "what": "Participatory research with communities living in contact with polluted soils.",
+      "funder": "Horizon",
+      "amount": "EUR 11,000,000, 2 grants at EUR...",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-05-SOIL-04-two-stage"
+    },
+    {
+      "deadline": "2027-05-04",
+      "when": "opens 2 Mar",
+      "name": "Horizon CL2 2027 open topics, heritage and...",
+      "what": "Open-topic research on cultural heritage and the creative industries, or on reinvigorating European democracy.",
+      "funder": "Horizon",
+      "amount": "HERITAGE-09: EUR 20,000,000, 5 grants...",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search"
+    },
+    {
+      "deadline": "2027-06-08",
+      "when": "opens 9 Mar",
+      "name": "MSCA and Citizens 2027",
+      "what": "Public engagement activities bringing researchers and citizens together, including European Researchers' Night events.",
+      "funder": "Horizon",
+      "amount": "EUR 100,000 to 350,000 per grant, 50...",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search"
+    },
+    {
+      "deadline": "2027-09-23",
+      "when": "opens 13 May",
+      "name": "Horizon CL2 2027 heritage, education and...",
+      "what": "Research on heritage impact, intangible heritage, AI in primary education, disinformation and news media freedom.",
+      "funder": "Horizon",
+      "amount": null,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search"
+    },
+    {
+      "deadline": "2027-12-01",
+      "when": null,
+      "name": "New European Bauhaus 2027, novel knowledge...",
+      "what": "Research combining new knowledge and methods to address social issues in the built environment.",
+      "funder": "Horizon",
+      "amount": null,
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-search"
+    },
+    {
+      "deadline": null,
+      "when": "publishes dec 2026",
+      "name": "ARXIVE: Building digital narratives",
+      "what": "Building digital narratives from cultural heritage collections.",
+      "funder": "ECHOES",
+      "amount": "EUR 20,000",
+      "url": "https://www.echoes-eccch.eu/project-grants/"
+    },
+    {
+      "deadline": null,
+      "when": "publishes q1 2027",
+      "name": "Creative Europe European Cooperation Projects",
+      "what": "Transnational cultural cooperation projects at small, medium or large scale, across all sectors except audiovisual.",
+      "funder": "Creative Europe",
+      "amount": "EUR 61,189,842 total",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/crea"
+    },
+    {
+      "deadline": null,
+      "when": "publishes q4 2026",
+      "name": "Creative Europe NEWS Media Literacy",
+      "what": "Cross-border media literacy projects in non-educational settings, aimed at disinformation and information integrity.",
+      "funder": "Creative Europe",
+      "amount": "EUR 3,500,000",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/crea"
+    },
+    {
+      "deadline": null,
+      "when": "no date",
+      "name": "ECHOES Third Cascading Call, Data and...",
+      "what": "Cultural heritage data work and vertical applications on the heritage cloud.",
+      "funder": "ECHOES",
+      "amount": "EUR 60,000",
+      "url": "https://www.echoes-eccch.eu/cascading-grants/"
+    },
+    {
+      "deadline": null,
+      "when": "publishes dec 2026",
+      "name": "ECHOES sister-project grants, programme...",
+      "what": "Eight separate small grants from ECHOES partner projects, each on a different cultural heritage theme.",
+      "funder": "ECHOES",
+      "amount": null,
+      "url": "https://www.echoes-eccch.eu/project-grants/"
+    },
+    {
+      "deadline": null,
+      "when": "publishes feb 2027",
+      "name": "INFINITY: Data-driven business models and...",
+      "what": "Data-driven business models and innovation for cultural heritage.",
+      "funder": "ECHOES",
+      "amount": "EUR 30,000",
+      "url": "https://www.echoes-eccch.eu/project-grants/"
+    },
+    {
+      "deadline": null,
+      "when": "publishes apr 2027",
+      "name": "MusicSphere: Musical cultural heritage",
+      "what": "Musical cultural heritage projects.",
+      "funder": "ECHOES",
+      "amount": "EUR 60,000",
+      "url": "https://www.echoes-eccch.eu/project-grants/"
+    },
+    {
+      "deadline": null,
+      "when": "publishes feb",
+      "name": "Nordic Council of Ministers NGO Cooperation...",
+      "what": "Nordic-Baltic NGO cooperation; the 2026 priorities were disinformation and resilience.",
+      "funder": "Nordic",
+      "amount": "EUR 7,000 to 25,000",
+      "url": "https://www.norden.org/"
+    },
+    {
+      "deadline": null,
+      "when": "publishes nov 2026",
+      "name": "Nordic Culture Point Culture and Art Programme",
+      "what": "Cultural and artistic projects across at least three countries, two of them Nordic.",
+      "funder": "Nordic",
+      "amount": "EUR 7,000 with no co-funding",
+      "url": "https://www.nkk.org/en/culture-and-art-programme/"
+    },
+    {
+      "deadline": null,
+      "when": "publishes nov 2026",
+      "name": "Nordic Culture Point Short-term Network...",
+      "what": "Short-term cultural networks across at least three Nordic or Baltic countries.",
+      "funder": "Nordic",
+      "amount": "EUR 20,000, max 70% of budget",
+      "url": "https://www.nkk.org/en/short-term-network-funding/"
+    },
+    {
+      "deadline": null,
+      "when": "publishes sep 2027",
+      "name": "UNICHE: Visitor experiences",
+      "what": "Improving visitor experiences at cultural heritage sites and museums.",
+      "funder": "ECHOES",
+      "amount": "EUR 50,000",
+      "url": "https://www.echoes-eccch.eu/project-grants/"
+    }
+  ]
+}

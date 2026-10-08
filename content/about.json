@@ -1,0 +1,52 @@
+{
+  "lt": {
+    "text": "[GAP: kodėl įkurtas Participio ir kam jis skirtas, 2-3 sakiniai]\n\n[GAP: su kuo ir kam Participio dirba, 1-2 sakiniai]"
+  },
+  "en": {
+    "text": "[GAP: why Participio was founded and what it is for, 2-3 sentences]\n\n[GAP: who Participio works with or for, 1-2 sentences]"
+  },
+  "facts": [
+    {
+      "en": {
+        "label": "Legal form",
+        "value": "Public institution (VšĮ), non-profit"
+      },
+      "lt": {
+        "label": "Teisinė forma",
+        "value": "Viešoji įstaiga (VšĮ)"
+      },
+      "footer": true
+    },
+    {
+      "en": {
+        "label": "Contact",
+        "value": "info@participio.eu"
+      },
+      "lt": {
+        "label": "Kontaktai",
+        "value": "info@participio.eu"
+      }
+    },
+    {
+      "lt": {
+        "label": "Įkurta",
+        "value": "[GAP: metai]"
+      },
+      "en": {
+        "label": "Founded",
+        "value": "[GAP: year]"
+      }
+    },
+    {
+      "lt": {
+        "label": "Įmonės kodas",
+        "value": "[GAP: įmonės kodas]"
+      },
+      "en": {
+        "label": "Company code",
+        "value": "[GAP: company code]"
+      },
+      "footer": true
+    }
+  ]
+}

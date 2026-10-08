@@ -1,0 +1,72 @@
+---
+layout: base.njk
+pagination:
+  data: db.sectionPages
+  size: 1
+  alias: entry
+permalink: "{{ routes[entry.route][entry.lang] }}"
+eleventyComputed:
+  lang: "{{ entry.lang }}"
+  key: "{{ entry.route }}"
+  altUrl: "{{ routes[entry.route]['en' if entry.lang == 'lt' else 'lt'] }}"
+  pageTitle: "{{ i18n[entry.lang].sections[entry.section].title }}"
+---
+{%- set lang = entry.lang %}
+{%- set t = i18n[lang] %}
+{%- import "macros.njk" as ui %}
+{%- set posts = db.insights | inLang(lang) | inSection(entry.section) %}
+{%- if entry.section == 'cases' %}{% set posts = posts | notOwn %}{% endif %}
+  <section class="block first last">
+    <div class="container">
+      <h1 class="page-title">{{ t.sections[entry.section].h1 }}</h1>
+      <p class="block-lede">{{ t.sections[entry.section].lede }}</p>
+      {%- if entry.section == 'opinions' %}
+      <div id="steps" class="step-cards">
+        {%- for st in db.steps %}
+        <button type="button" class="step-card s-{{ st.key }}" data-step="{{ st.key }}" aria-pressed="false"><span class="n">{{ loop.index }}</span><span class="step-title">{{ st[lang].title }}</span><span class="counts">{{ (posts | forStep(st.key)).length + (db.guidesExternal.items | forStep(st.key)).length }}</span></button>
+        {%- endfor %}
+      </div>
+      <p id="steps-none" class="block-lede" hidden>{{ t.guides_none }}</p>
+      {%- endif %}
+      {%- if posts.length or entry.section == 'cases' %}
+      <div class="cards{% if entry.section == 'opinions' %} compact{% endif %}">
+        {%- if entry.section == 'cases' %}
+{% include "sections/projects.njk" %}
+        {%- endif %}
+        {%- for x in posts %}{{ ui.case(x, lang, t, db.steps, routes) }}{% endfor %}
+        {%- if entry.section == 'opinions' %}
+        {%- for g in db.guidesExternal.items %}
+        <a class="card case external" data-steps="{{ g.steps | join(' ') }}" href="{{ g.url }}" target="_blank" rel="noopener">
+          <div class="cover call-cover soon"><span>{{ t.guide_by }}</span><strong>{{ g.by }}</strong></div>
+          <div class="card-body">
+            <div class="chips">{% for st in db.steps %}{% if st.key in g.steps %}<span class="chip step s-{{ st.key }}">{{ st[lang].title }}</span>{% endif %}{% endfor %}<span class="chip outline">{{ t.guide_external }}</span></div>
+            <h3>{{ g.title }} &nearr;</h3>
+            <p>{{ g[lang] }}</p>
+            <p class="practice">{{ [g.year, g.licence] | select | join(' · ') }}</p>
+          </div>
+        </a>
+        {%- endfor %}
+        {%- endif %}
+      </div>
+      {%- if entry.section == 'cases' %}<p class="eu-note">{{ t.eu_disclaimer }}</p>{% endif %}
+      {%- else %}
+      <p class="block-lede">{{ t.no_posts }}</p>
+      {%- endif %}
+    </div>
+  </section>
+{%- if entry.section == 'opinions' %}
+  <script>
+    // The six step tiles filter the guides. Pressing the active tile again shows all of them.
+    (function () {
+      var tiles = document.querySelectorAll('#steps .step-card'), cards = document.querySelectorAll('.cards .card.case'), none = document.getElementById('steps-none');
+      tiles.forEach(function (b) {
+        b.addEventListener('click', function () {
+          var on = b.getAttribute('aria-pressed') !== 'true', shown = 0;
+          tiles.forEach(function (o) { o.setAttribute('aria-pressed', o === b && on ? 'true' : 'false'); o.classList.toggle('dim', on && o !== b); });
+          cards.forEach(function (c) { var show = !on || c.dataset.steps.split(' ').indexOf(b.dataset.step) > -1; c.hidden = !show; if (show) shown++; });
+          none.hidden = shown > 0;
+        });
+      });
+    })();
+  </script>
+{%- endif %}

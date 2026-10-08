@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "date": "15 October 2026",
+      "date_lt": "2026 m. spalio 15 d.",
+      "url": "",
+      "en": {
+        "title": "Workshop at the Sugihara House Museum, Kaunas",
+        "text": "An invitation-only workshop organised by Participio for the DIGICHer project. A description and the outcomes will be published here after the event."
+      },
+      "lt": {
+        "title": "Dirbtuvės Sugiharos namuose, Kaune",
+        "text": "Dirbtuvės tik pakviestiems dalyviams, kurias projekto DIGICHer užsakymu organizuoja „Participio“. Aprašymą ir rezultatus paskelbsime po renginio."
+      }
+    },
+    {
+      "date": "23 September 2026",
+      "date_lt": "2026 m. rugsėjo 23 d.",
+      "url": "",
+      "en": {
+        "title": "Linguistic diversity and digital heritage, Brussels",
+        "text": "A networking breakfast and panel on the European Day of Languages, held by the Network to Promote Linguistic Diversity in cooperation with DIGICHer. Participio organised the event for the DIGICHer project.",
+        "url": "/news/linguistic-diversity-and-digital-heritage-npld-digicher-brussels/"
+      },
+      "lt": {
+        "title": "Kalbų įvairovė ir skaitmeninis paveldas, Briuselis",
+        "text": "Bendravimo pusryčiai ir diskusija Europos kalbų dienos proga, surengti Kalbų įvairovės skatinimo tinklo kartu su DIGICHer. Renginį projekto DIGICHer užsakymu organizavo „Participio“.",
+        "url": "/lt/naujienos/linguistic-diversity-and-digital-heritage-npld-digicher-brussels/"
+      }
+    }
+  ]
+}

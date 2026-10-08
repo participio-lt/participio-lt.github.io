@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "participio-web", "runtimeExecutable": "npm", "runtimeArgs": ["--prefix", "/Users/monikamaciuliene/Documents/my stuff/research stuff/NGO's/Participio/web", "run", "dev"], "port": 8091 }
+  ]
+}
