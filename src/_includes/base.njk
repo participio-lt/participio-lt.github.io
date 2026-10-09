@@ -13,8 +13,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{% if pageTitle or labels[key] %}{{ pageTitle or labels[key] }} | Participio{% else %}{{ t.site_title }}{% endif %}</title>
 <meta name="description" content="{{ description or t.site_description }}" />
+{%- if langs.length > 1 %}
 <link rel="alternate" hreflang="lt" href="https://participio.lt{{ ltUrl }}" />
 <link rel="alternate" hreflang="en" href="https://participio.lt{{ enUrl }}" />
+{%- endif %}
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -32,7 +34,7 @@
         <a href="{{ routes[k][lang] }}"{% if key == k %} class="active"{% endif %}>{{ labels[k] | safe }}</a>
         {%- endfor %}
       </div>
-      <div class="nav-lang"><a href="{{ enUrl }}" lang="en"{% if lang == 'en' %} class="on"{% endif %}>EN</a> / <a href="{{ ltUrl }}" lang="lt"{% if lang == 'lt' %} class="on"{% endif %}>LT</a></div>
+      {% if langs.length > 1 %}<div class="nav-lang"><a href="{{ enUrl }}" lang="en"{% if lang == 'en' %} class="on"{% endif %}>EN</a> / <a href="{{ ltUrl }}" lang="lt"{% if lang == 'lt' %} class="on"{% endif %}>LT</a></div>{% endif %}
     </div>
   </nav>
 
@@ -70,7 +72,7 @@
     </div>
     <div class="container footer-base">
       <span>&copy; 2026 Participio</span>
-      <span><a href="{{ enUrl }}" lang="en">English</a> · <a href="{{ ltUrl }}" lang="lt">Lietuvių</a></span>
+      {% if langs.length > 1 %}<span><a href="{{ enUrl }}" lang="en">English</a> · <a href="{{ ltUrl }}" lang="lt">Lietuvių</a></span>{% endif %}
     </div>
   </footer>
 

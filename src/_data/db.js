@@ -1,6 +1,10 @@
 import fs from "node:fs";
 
 const read = (f) => JSON.parse(fs.readFileSync(`content/${f}.json`, "utf8"));
+// The languages the site is published in. Lithuanian texts stay in the content files and are switched
+// back on by adding "lt" to src/_data/langs.json.
+const langs = JSON.parse(fs.readFileSync("src/_data/langs.json", "utf8"));
+const routes = JSON.parse(fs.readFileSync("src/_data/routes.json", "utf8"));
 
 export default function () {
   const insights = fs
@@ -17,12 +21,20 @@ export default function () {
 
   // One page per post per language. English pages exist only where an English title is filled in.
   const insightPages = insights.flatMap((item) =>
-    ["lt", "en"].filter((lang) => item[lang] && item[lang].title).map((lang) => ({ lang, item }))
+    langs.filter((lang) => item[lang] && item[lang].title).map((lang) => ({ lang, item }))
   );
 
-  const sectionPages = ["en", "lt"].flatMap((lang) =>
+  const sectionPages = langs.flatMap((lang) =>
     [["opinions", "opinions"], ["news", "news"]].map(([section, route]) => ({ lang, section, route }))
   );
+
+  // While Lithuanian is switched off, its old addresses send visitors to the English page.
+  const redirects = langs.includes("lt")
+    ? []
+    : [
+        ...Object.values(routes).map((r) => ({ from: r.lt, to: r.en === "/our-work/" ? "/about/#work" : r.en })),
+        ...insights.filter((x) => x.lt && x.lt.title).map((x) => ({ from: `${routes[x.route].lt}${x.slug}/`, to: `${routes[x.route].en}${x.slug}/` })),
+      ];
 
   // The five steps of the journey. Every method, case and resource is tagged with one or more of them.
   const steps = read("steps").items.map((s, i) => ({ ...s, n: i + 1 }));
@@ -30,6 +42,7 @@ export default function () {
     insights,
     insightPages,
     sectionPages,
+    redirects,
     steps,
     gallery: read("gallery"),
     collaborators: read("collaborators"),

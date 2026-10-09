@@ -1,6 +1,6 @@
 # participio.lt
 
-Website of Participio, in English (main version) and Lithuanian (under `/lt/`).
+Website of Participio, in English. A Lithuanian version is prepared in the content files but switched off; it is switched back on by adding `"lt"` to `src/_data/langs.json`. Until then the old `/lt/` addresses redirect to the English pages.
 
 The site has three pages in the menu:
 
@@ -16,7 +16,7 @@ Content is edited in the browser with [Pages CMS](https://app.pagescms.org). No 
 2. Choose this repository. The menu on the left lists what can be edited.
 3. **To add a post**, open "Įrašai / Posts" and press "Add an entry".
    - Pick the date and the section: How-to guides, News, or Our work.
-   - Write the title, a summary of one or two sentences, and the text in English. Add Lithuanian if there is a translation. A post without a Lithuanian title shows only on the English site.
+   - Write the title, a summary of one or two sentences, and the text in English. The Lithuanian fields are not shown on the site at present and can stay empty.
    - Upload a picture. If the picture is not ours, fill in the picture credit.
    - For an event organised by someone else, fill in "organised by". For our own event, tick "Our own event".
    - For a guide, tick the steps it belongs to.
@@ -34,7 +34,7 @@ Rules we keep on this site: no invented facts or numbers, events by others are a
 ## How it works
 
 - Content lives in `content/` as JSON files. Posts are in `content/insights/`, one file per post.
-- Pages are built from `src/` with [Eleventy](https://www.11ty.dev). Fixed interface texts in both languages are in `src/_data/i18n.json`. Stylesheets are in `static/`, uploaded pictures in `assets/uploads/`.
+- Pages are built from `src/` with [Eleventy](https://www.11ty.dev). Fixed interface texts are in `src/_data/i18n.json`. Stylesheets are in `static/`, uploaded pictures in `assets/uploads/`.
 - The editor is configured in `.pages.yml`.
 - Every change on `main` is built and published by GitHub Actions (`.github/workflows/deploy.yml`) to GitHub Pages.
 - Posts marked as draft show in the local preview only. Text written as `[GAP: ...]` in a content file is left out of the page.

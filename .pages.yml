@@ -54,7 +54,7 @@ content:
           - { name: summary, label: Summary (one or two sentences), type: text }
           - { name: body, label: Text, type: rich-text, options: { format: html } }
       - name: lt
-        label: Lietuviškai (palikite tuščią, jei vertimo nėra / leave empty if there is no translation)
+        label: Lietuviškai (šiuo metu svetainėje nerodoma, galima palikti tuščią / not shown on the site at present, can stay empty)
         type: object
         fields:
           - { name: title, label: Pavadinimas, type: string }

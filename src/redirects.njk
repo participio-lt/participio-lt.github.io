@@ -1,0 +1,19 @@
+---
+pagination:
+  data: db.redirects
+  size: 1
+  alias: r
+permalink: "{{ r.from }}"
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Participio</title>
+<meta http-equiv="refresh" content="0; url={{ r.to }}">
+<link rel="canonical" href="https://participio.lt{{ r.to }}">
+<meta name="robots" content="noindex">
+</head>
+<body><p><a href="{{ r.to }}">participio.lt{{ r.to }}</a></p></body>
+</html>
