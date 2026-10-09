@@ -23,7 +23,7 @@
     {
       "lt": {
         "number": "1 400+",
-        "label": "Piliečių, įtrauktų komandos narių darbuose"
+        "label": "Gyventojų, dalyvavusių komandos narių vykdytose veiklose"
       },
       "en": {
         "number": "1,400+",
@@ -33,7 +33,7 @@
     {
       "lt": {
         "number": "10+",
-        "label": "Šalių, kuriose vykdyti lauko tyrimai"
+        "label": "Šalių, kuriose atlikti tyrimai"
       },
       "en": {
         "number": "10+",

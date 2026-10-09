@@ -9,7 +9,7 @@
     "four_overlapping_fields_where_participatory": "Keturios persidengiančios sritys, kuriose dalyvaujamieji metodai keičia tai, kas iš tikrųjų žinoma, ir tai, kas dėl to daroma.",
     "a_subset_of_recent_engagements": "Šiuos projektus mūsų komandos nariai vykdė dirbdami universitetuose ir partnerių organizacijose. Participio juose nebuvo partneris.",
     "projects_and_workshops_carried_out": "Projektai ir dirbtuvės, kuriuos Participio vykdo kaip organizacija.",
-    "building_a_proposal_that_needs": "Rengiate paraišką, kuriai reikia <em>tikro</em> dalyvavimo?",
+    "building_a_proposal_that_needs": "Rengiate paraišką, kurioje reikia <em>tikro</em> visuomenės dalyvavimo?",
     "research_that_listens_before_it": "Tyrimai,<br/>kurie <em>įsiklauso</em>,<br/>prieš<br/>darydami išvadas.",
     "trust_repair_climate_misinformation_civic": "PASITIKĖJIMO ATKŪRIMAS | DEZINFORMACIJA APIE KLIMATĄ | PILIETINIS ATSPARUMAS",
     "living_labs_climate_assemblies_urban": "GYVOSIOS LABORATORIJOS | KLIMATO ASAMBLĖJOS | MIESTŲ SCENARIJAI",
@@ -34,7 +34,7 @@
     "living_memory": "Gyvoji atmintis",
     "who_we_are": "Kas mes esame",
     "site_title": "Participio | Dalyvaujamieji tyrimai ir bendruomenių įtraukimas",
-    "site_description": "Participio yra nepriklausoma organizacija Vilniuje, vienijanti dalyvaujamųjų tyrimų ir bendruomenių įtraukimo ekspertus.",
+    "site_description": "„Participio“ yra nepriklausoma organizacija Vilniuje, vienijanti dalyvaujamųjų tyrimų ir bendruomenių įtraukimo ekspertus.",
     "more_about": "Daugiau apie mus",
     "services_lede": "Keturi būdai mus pasitelkti: kai buriate konsorciumą, rengiate paraišką ar mokote komandą.",
     "all": "Visos",
@@ -75,7 +75,7 @@
       "kuriems rūpi",
       "šie klausimai"
     ],
-    "process_label": "Šeši dalyvaujamojo darbo žingsniai: finansuoti, planuoti, kviesti, vesti, suprasti, veikti ir vertinti.",
+    "process_label": "Šeši dalyvaujamojo projekto žingsniai: finansavimas, planavimas, atranka, vykdymas, apibendrinimas, veiksmai ir vertinimas.",
     "sections": {
       "cases": {
         "title": "Mūsų darbai",
@@ -85,12 +85,12 @@
       "opinions": {
         "title": "Praktinės gairės",
         "h1": "Praktinės gairės",
-        "lede": "Atrinktas praktinių gairių rinkinys apie programos „Europos horizontas“ finansavimą ir dalyvaujamuosius metodus. Dalį parengė „Participio“ komanda, kitas parengė ekspertai kitur, į jas pateikiame nuorodas. Pasirinkite žingsnį ir matysite tik jo gaires."
+        "lede": "Atrinktos praktinės gairės apie programos „Europos horizontas“ finansavimą ir dalyvaujamuosius metodus. Dalį parengė „Participio“ komanda, kitas parengė kitų organizacijų ekspertai, į jas pateikiame nuorodas. Pasirinkite žingsnį ir matysite tik jam skirtas gaires."
       },
       "news": {
         "title": "Naujienos",
         "h1": "Renginiai ir finansavimas dalyvaujamosioms veikloms",
-        "lede": "Atranka iš visos srities, Lietuvoje ir už jos ribų. Daugumą šių renginių organizuoja kiti. Jei renginys mūsų, tai pažymėta."
+        "lede": "Atrinkti renginiai ir finansavimo galimybės Lietuvoje ir užsienyje. Daugumą šių renginių organizuoja kitos organizacijos. Mūsų renginiai pažymėti atskirai."
       }
     },
     "latest_h2": "Naujausia",
@@ -98,7 +98,7 @@
     "n_cases": "atvejai",
     "all_cases": "Visos naujienos ir įžvalgos",
     "draft": "Juodraštis, neskelbiama",
-    "footer_about": "Nepriklausoma tyrimų konsultacijų organizacija dalyvaujamiesiems tyrimams ir programos „Europos horizontas“ projektams.",
+    "footer_about": "Nepriklausoma mokslinių tyrimų ir konsultacijų organizacija, dirbanti su dalyvaujamaisiais tyrimais ir programos „Europos horizontas“ projektais.",
     "footer_contact": "Kontaktai",
     "footer_site": "Svetainė",
     "footer_place": "Vilnius, Lietuva",
@@ -110,26 +110,26 @@
     "projects": "Mūsų projektai",
     "projects_lede": "Tai, prie ko „Participio“ dirba dabar, ir mūsų organizuoti renginiai.",
     "what_you_get": "Ką gaunate:",
-    "cta_text": "Keliais sakiniais parašykite, ką rengiate ir iki kada. Atsakysime el. paštu ir pasiūlysime pirmą pokalbį.",
+    "cta_text": "Keliais sakiniais parašykite, ką rengiate ir koks terminas. Atsakysime el. paštu ir pasiūlysime pirmą pokalbį.",
     "figures_note": "Bendra mūsų komandos narių patirtis, sukaupta dirbant universitetuose ir tyrimų konsorciumuose.",
-    "statement": "„Participio“ yra nepriklausoma tyrimų konsultacijų organizacija Vilniuje. Ši svetainė yra praktinių žinių apie programos „Europos horizontas“ finansavimą ir dalyvaujamuosius metodus centras, pirmiausia skirtas tiems Lietuvoje, kuriems abu dalykai nauji.",
+    "statement": "„Participio“ yra nepriklausoma mokslinių tyrimų ir konsultacijų organizacija Vilniuje. Šioje svetainėje kaupiame praktines žinias apie programos „Europos horizontas“ finansavimą ir dalyvaujamuosius metodus, pirmiausia tiems Lietuvoje, kuriems abi sritys dar naujos.",
     "projects_h1": "Mūsų projektai",
     "toolbox_h1": "Dalyvaujamųjų tyrimų metodai ir įrankiai",
     "by_others": "Dėmesio vertas renginys",
     "by_note_1": "Dėmesio vertas renginys, kurį organizuoja",
-    "by_note_2": ". Tai ne „Participio“ renginys; dalijamės juo, nes jis svarbus dalyvaujamajam darbui.",
+    "by_note_2": ". Tai ne „Participio“ renginys. Dalijamės juo, nes jis aktualus dirbantiems su dalyvaujamaisiais metodais.",
     "organised_by": "Organizuoja",
     "partner": "Partnerystė",
     "partner_h1": "Apie „Participio“",
-    "partner_lede": "„Participio“ yra nepriklausoma ne pelno tyrimų konsultacijų organizacija Vilniuje. Dirbame dalyvaujamųjų tyrimų ir bendruomenių įtraukimo srityje: jungiamės prie konsorciumų kaip partneris, organizuojame renginius Europos projektams ir skelbiame tai, ką išmokstame, kad tuo galėtų naudotis kiti Lietuvoje.",
-    "bring_h2": "Ką atnešame į konsorciumą",
+    "partner_lede": "„Participio“ yra nepriklausoma ne pelno mokslinių tyrimų ir konsultacijų organizacija Vilniuje. Dirbame dalyvaujamųjų tyrimų ir bendruomenių įtraukimo srityje: dalyvaujame konsorciumuose kaip partneriai, organizuojame renginius Europos projektams ir skelbiame tai, ko išmokstame, kad tuo galėtų pasinaudoti ir kiti Lietuvoje.",
+    "bring_h2": "Ką siūlome konsorciumui",
     "track_h2": "Patirtis",
     "all_projects": "Visi mūsų projektai",
     "gallery_h2": "Iš arti",
     "recent_h2": "Ką veikėme pastaruoju metu",
     "collab_h2": "Projektai ir organizacijos, su kuriais dirbome",
     "experts_h2": "Ekspertai",
-    "experts_lede": "Žmonės, kuriuos pasitelkiame, pagal kompetencijų sritis.",
+    "experts_lede": "Ekspertai, su kuriais dirbame, ir jų kompetencijų sritys.",
     "ours": "Mūsų renginys",
     "read_more": "Skaityti daugiau",
     "by_experts": "Mūsų ekspertai",
@@ -147,7 +147,7 @@
     "calls_chip_pl": "Finansavimo kvietimai",
     "calls_expected_h": "Laukiami, termino dar nėra",
     "guide_by": "Parengė",
-    "guide_external": "Išorinė"
+    "guide_external": "Kitų parengta"
   },
   "en": {
     "contact": "Contact",

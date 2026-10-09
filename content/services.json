@@ -3,7 +3,7 @@
     {
       "lt": {
         "title": "Bendruomenių įtraukimas ir piliečių mokslas",
-        "who": "Besiburiantiems konsorciumams",
+        "who": "Formuojamiems konsorciumams",
         "summary": "Vadovaujame arba prisidedame prie darbo paketų, skirtų įtraukimui, bendrakūrai ir piliečių mokslui, taip pat komunikacijai ir sklaidai.",
         "text": "Partneris, kuris prisiima šias užduotis ir jų rezultatus, įskaitant dalyvaujamųjų procesų vertinimą. Toks yra mūsų vaidmuo projekte RESCUE („Europos horizontas“, 2027-2029).",
         "details": "[GAP: format, length, price or \"on request\"]"
@@ -18,9 +18,9 @@
     },
     {
       "lt": {
-        "title": "SHM integracija ir bendrakūros dizainas",
-        "who": "STEM konsorciumų koordinatoriams",
-        "summary": "Suprojektuojame socialinių ir humanitarinių mokslų bei visuomenės dalyvavimo dalį jūsų darbo plane, kad ji turėtų tikras užduotis, o ne vieną pastraipą.",
+        "title": "SHM integravimas ir bendrakūros planavimas",
+        "who": "STEM krypties konsorciumų koordinatoriams",
+        "summary": "Suplanuojame socialinių ir humanitarinių mokslų bei visuomenės dalyvavimo dalį jūsų darbo plane, kad joje būtų tikros užduotys, o ne viena pastraipa.",
         "text": "Dirbame su jūsų darbo planu: kuriam darbo paketui vadovauja SHM partneris, kaip bendrakūros ir piliečių mokslo užduotys tampa rezultatais ir rodikliais ir kaip tai aprašoma B dalyje.",
         "details": "[GAP: format, length, price or \"on request\"]"
       },
@@ -37,7 +37,7 @@
         "title": "Paraiškos peržiūra ir bandomasis vertinimas",
         "who": "Koordinatoriams ir partneriams, turintiems juodraštį",
         "summary": "Pastabos jūsų juodraščiui ir balai pagal viešus vertinimo kriterijus, kol paraiškos dar nemato tikri vertintojai.",
-        "text": "Jūsų juodraštį skaitome ne vieną kartą, jam keičiantis. Gaunate rašytines pastabas ir balus pagal kiekvieną kriterijų vertinimo suvestinės formatu.",
+        "text": "Jūsų juodraštį skaitome ne vieną kartą, jam keičiantis. Gaunate rašytines pastabas ir balus pagal kiekvieną kriterijų, vertinimo suvestinės ataskaitos (ESR) formatu.",
         "details": "[GAP: format, length, price or \"on request\"]"
       },
       "en": {
@@ -50,8 +50,8 @@
     },
     {
       "lt": {
-        "title": "Mokymai mokslo padaliniams ir komandoms",
-        "who": "Mokslo padaliniams, institutams ir konsorciumams",
+        "title": "Mokymai mokslo skyriams ir komandoms",
+        "who": "Mokslo skyriams, institutams ir konsorciumams",
         "summary": "Grupiniai užsiėmimai lietuvių arba anglų kalba, kuriuose dalyviai dirba su savo paraiškomis.",
         "text": "Užsiėmimai apie visuomenės dalyvavimą, SHM integraciją ir poveikio dalį, paremti dalyvių atsineštais juodraščiais.",
         "details": "[GAP: format, length, price or \"on request\"]"

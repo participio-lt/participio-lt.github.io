@@ -15,7 +15,7 @@
         "ring": "programme · call text · work plan · budget · partners"
       },
       "lt": {
-        "title": "Finansuoti",
+        "title": "Finansavimas",
         "lede": "Raskite tinkamą programą ir aprašykite dalyvavimą paraiškoje taip, kad jis būtų finansuotas, o ne tik paminėtas.",
         "questions": [
           "Kuri programa ir kvietimas tinka tam, ką norite daryti?",
@@ -42,7 +42,7 @@
         "ring": "purpose · influence · who is affected · budget · ethics"
       },
       "lt": {
-        "title": "Planuoti",
+        "title": "Planavimas",
         "lede": "Nuspręskite, kodėl įtraukiate žmones, ką jie iš tikrųjų gali paveikti ir kas turi dalyvauti.",
         "questions": [
           "Kokiam sprendimui ar žinioms tai pasitarnaus?",
@@ -51,7 +51,7 @@
           "Kiek turite laiko ir lėšų?",
           "Ar prieš pradedant reikia etikos leidimo ar sutikimo taisyklių?"
         ],
-        "ring": "tikslas · įtaka · kas paliečiamas · biudžetas · etika"
+        "ring": "tikslas · įtaka · ką tai paliečia · biudžetas · etika"
       }
     },
     {
@@ -68,7 +68,7 @@
         "ring": "lottery · open call · invitation · barriers · who is missing"
       },
       "lt": {
-        "title": "Kviesti",
+        "title": "Atranka",
         "lede": "Suraskite ir pakvieskite žmones taip, kad grupė atspindėtų tuos, kuriuos klausimas paliečia.",
         "questions": [
           "Burtai, atviras kvietimas ar tikslinis kvietimas?",
@@ -76,7 +76,7 @@
           "Kas trukdo žmonėms ateiti ir kas tai pašalina: atlygis, vaikų priežiūra, kalba, laikas?",
           "Kaip pasieksite tuos, kurie neatsako į laiškus?"
         ],
-        "ring": "burtai · atviras kvietimas · kliūtys · ko trūksta"
+        "ring": "atsitiktinė atranka · atviras kvietimas · kliūtys · kieno trūksta"
       }
     },
     {
@@ -93,7 +93,7 @@
         "ring": "format · facilitation · quiet voices · recording"
       },
       "lt": {
-        "title": "Vesti",
+        "title": "Vykdymas",
         "lede": "Veskite susitikimus taip, kad prisidėti galėtų visi, ne tik drąsiausi.",
         "questions": [
           "Koks formatas tinka jūsų klausimui ir grupei?",
@@ -117,7 +117,7 @@
         "ring": "analysis · checking back · disagreement · reporting"
       },
       "lt": {
-        "title": "Suprasti",
+        "title": "Apibendrinimas",
         "lede": "Paverskite tai, kas pasakyta, išvadomis, kurias dalyviai atpažintų kaip savo.",
         "questions": [
           "Kas analizuoja medžiagą ir ar dalyviai patikrina rezultatą?",
@@ -141,7 +141,7 @@
         "ring": "response · uptake · what worked · next time"
       },
       "lt": {
-        "title": "Veikti ir vertinti",
+        "title": "Veiksmai ir vertinimas",
         "lede": "Parodykite, kas pasikeitė dėl to, kad žmonės dalyvavo, ir išsiaiškinkite, ką kitą kartą daryti kitaip.",
         "questions": [
           "Kas ir iki kada turi atsakyti į rezultatus?",

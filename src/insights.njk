@@ -28,7 +28,7 @@ eleventyComputed:
       </div>
       <p id="steps-none" class="block-lede" hidden>{{ t.guides_none }}</p>
       {%- endif %}
-      {%- if posts.length or entry.section == 'cases' %}
+      {%- if posts.length or entry.section == 'cases' or (entry.section == 'opinions' and db.guidesExternal.items.length) %}
       <div class="cards{% if entry.section == 'opinions' %} compact{% endif %}">
         {%- if entry.section == 'cases' %}
 {% include "sections/projects.njk" %}
