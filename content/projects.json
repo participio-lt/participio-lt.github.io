@@ -70,23 +70,6 @@
         "role": "Kuruojame platformą.",
         "url": "https://www.infodemija.lt/"
       }
-    },
-    {
-      "dates": "2026",
-      "en": {
-        "label": "Team initiative",
-        "title": "\"A Call from the Past\"",
-        "text": "A six-stop audio guide along J. Basanavičiaus Street in Vilnius, made by a team member during her studies and tested with the neighbours.",
-        "role": "",
-        "url": "/our-work/a-call-from-the-past-audio-guide-tested-with-neighbours/"
-      },
-      "lt": {
-        "label": "Komandos iniciatyva",
-        "title": "„Skambutis iš praeities“",
-        "text": "Šešių stotelių audiogidas po J. Basanavičiaus gatvę Vilniuje, kurį komandos narė sukūrė studijų metu ir išbandė su kaimynais.",
-        "role": "",
-        "url": "/lt/musu-darbai/a-call-from-the-past-audio-guide-tested-with-neighbours/"
-      }
     }
   ]
 }
