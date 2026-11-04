@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-04",
+  "section": "news",
+  "steps": [],
+  "image": "/assets/uploads/events/crash-hackathon-graz.png",
+  "image_source": {
+    "name": "CRASH organisers",
+    "url": "https://crash-this.github.io/"
+  },
+  "by": {
+    "en": "the University of Graz, Graz University of Technology and Know Center",
+    "lt": "Grazo universitetas, Grazo technologijos universitetas ir Know Center"
+  },
+  "en": {
+    "title": "CRASH: a cultural heritage search hackathon in Graz, 30 November-1 December",
+    "summary": "Two days of building and testing search tools on real cultural heritage data. Free, with support for travel and accommodation. Register by 10 November.",
+    "body": "<p>CRASH, the Cultural Heritage Advanced Search Hackathon, brings people who work with cultural heritage data into one room for two days. Teams of two to five build and test prototypes for searching collections such as manuscripts, letters, newspapers, maps, photographs and museum records. The focus is on tools that show why a result appears, let the user steer what counts as similar, are accessible to more people, and say what a search costs.</p><p>The organisers invite students, researchers, practitioners and experts from universities, galleries, libraries, archives, museums and industry. You do not have to code. Teams that bring their own dataset and problem come first when places are short. Those without one can work on prepared datasets on Austrian cultural heritage, published by 15 November. Participants can also register alone and find a team.</p><p><strong>Practical.</strong> 30 November-1 December 2026, UNICORN Startup &amp; Innovation Hub, Graz, Austria. On site only, in English. Free of charge, with meals provided. Participants can ask for support for travel and accommodation of up to 150 EUR per person. Registration is open until 10 November (extended from 1 November). <a href=\"https://crash-this.github.io/\" target=\"_blank\" rel=\"noopener\">More information and registration</a>.</p><p>CRASH is organised by a team from the University of Graz, Graz University of Technology and Know Center, and funded by CLARIAH-AT.</p>"
+  },
+  "lt": {
+    "title": "CRASH: kultūros paveldo paieškos hakatonas Grace, lapkričio 30-gruodžio 1 d.",
+    "summary": "Dvi dienos paieškos įrankių kūrimo ir bandymo su tikrais kultūros paveldo duomenimis. Nemokamai, su parama kelionei ir apgyvendinimui. Registracija iki lapkričio 10 d.",
+    "body": "<p>CRASH, kultūros paveldo duomenų paieškos hakatonas, dviem dienoms suburia žmones, dirbančius su kultūros paveldo duomenimis. Dviejų-penkių žmonių komandos kuria ir išbando paieškos prototipus rankraščių, laiškų, laikraščių, žemėlapių, nuotraukų ir muziejų įrašų rinkiniams. Dėmesys skiriamas įrankiams, kurie parodo, kodėl rezultatas atsirado, leidžia naudotojui pačiam nuspręsti, kas laikoma panašiu, yra prieinami daugiau žmonių ir parodo, kiek kainuoja paieška.</p><p>Kviečiami studentai, tyrėjai, praktikai ir ekspertai iš akademinės bendruomenės, galerijų, bibliotekų, archyvų, muziejų ir pramonės. Programuoti mokėti nebūtina. Komandos, atsivežančios savo duomenų rinkinį ir problemą, turi pirmenybę, jei vietų trūksta. Kitos gali dirbti su parengtais Austrijos kultūros paveldo duomenų rinkiniais, kurie bus paskelbti iki lapkričio 15 d. Registruotis galima ir vienam, komanda randama vietoje.</p><p><strong>Praktinė informacija.</strong> 2026 m. lapkričio 30 d.-gruodžio 1 d., UNICORN Startup &amp; Innovation Hub, Gracas, Austrija. Tik gyvai, anglų kalba. Dalyvavimas nemokamas, maitinimas suteikiamas. Galima prašyti paramos kelionei ir apgyvendinimui, iki 150 EUR asmeniui. Registracija pratęsta iki lapkričio 10 d. <a href=\"https://crash-this.github.io/\" target=\"_blank\" rel=\"noopener\">Daugiau informacijos ir registracija</a>.</p><p>CRASH organizuoja Grazo universiteto, Grazo technologijos universiteto ir Know Center komanda, finansuoja CLARIAH-AT.</p>"
+  }
+}
