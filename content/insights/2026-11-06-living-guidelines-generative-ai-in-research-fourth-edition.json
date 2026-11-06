@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-06",
+  "section": "news",
+  "steps": [],
+  "image": "",
+  "cover_label": {
+    "en": "AI in research",
+    "lt": "DI moksliniuose tyrimuose"
+  },
+  "cover_text": {
+    "en": "Generative AI guidelines, fourth edition",
+    "lt": "Generatyviojo DI gairės, ketvirtasis leidimas"
+  },
+  "en": {
+    "title": "Using generative AI in research and proposals: the European guidelines, fourth edition",
+    "summary": "The updated ERA Living Guidelines on generative AI in research now cover AI agents, and say what applicants and evaluators should and should not do with AI.",
+    "body": "<p>The fourth edition of the Living Guidelines on the responsible use of generative AI in research was published in October 2026. The guidelines were developed within the European Research Area Forum and are addressed to researchers, research organisations and research funders. They are non-binding and do not replace the rules of a specific funder, journal or institution.</p><p><strong>AI agents.</strong> The new edition covers agentic AI, meaning systems that carry out sequences of tasks with some autonomy. Using an agent never transfers responsibility: researchers set checkpoints, validate methodological decisions themselves and remain accountable for what the agent does, including with sensitive data.</p><p><strong>If you write proposals.</strong> Researchers disclose which AI tools they used substantially and what for, following the funder's rules for proposals. Funders are encouraged to ask applicants to declare whether they used generative AI substantially to prepare the application, and to describe the role of AI in the proposed research. Do not upload unpublished or confidential material to AI tools that are not secure.</p><p><strong>If you evaluate proposals.</strong> The judgement on scientific quality and merit cannot be delegated to an AI tool, and AI cannot be used to draft evaluation reports. It may be used for supporting tasks such as clarifying concepts or polishing language, only where the funder allows it and through secure tools. Proposals must not be shared with public AI services, not even as excerpts. Funders are also warned about hidden prompts placed in applications to influence AI tools.</p><p><strong>Where to read it.</strong> <a href=\"https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en\" target=\"_blank\" rel=\"noopener\">Living guidelines on the responsible use of generative AI in research</a> on the European Commission's research and innovation website (PDF).</p>"
+  },
+  "lt": {
+    "title": "Generatyvusis DI moksliniuose tyrimuose ir paraiškose: ketvirtasis Europos gairių leidimas",
+    "summary": "Atnaujintos EMTE gairės dėl generatyviojo DI naudojimo moksliniuose tyrimuose dabar apima ir DI agentus bei nurodo, ką pareiškėjai ir vertintojai gali ir ko negali daryti su DI.",
+    "body": "<p>2026 m. spalį paskelbtas ketvirtasis gairių dėl atsakingo generatyviojo dirbtinio intelekto naudojimo moksliniuose tyrimuose (Living Guidelines) leidimas. Gairės parengtos Europos mokslinių tyrimų erdvės forume ir skirtos tyrėjams, mokslinių tyrimų organizacijoms ir finansuotojams. Jos neprivalomos ir nepakeičia konkretaus finansuotojo, žurnalo ar institucijos taisyklių.</p><p><strong>DI agentai.</strong> Naujajame leidime aptariamas agentinis DI, t. y. sistemos, kurios su tam tikru savarankiškumu atlieka užduočių sekas. Agento naudojimas niekada neperkelia atsakomybės: tyrėjai numato kontrolinius taškus, patys patvirtina metodologinius sprendimus ir lieka atsakingi už tai, ką daro agentas, taip pat ir su jautriais duomenimis.</p><p><strong>Jei rengiate paraiškas.</strong> Tyrėjai nurodo, kokias DI priemones ir kam reikšmingai naudojo, laikydamiesi finansuotojo taisyklių paraiškoms. Finansuotojai raginami prašyti pareiškėjų nurodyti, ar rengiant paraišką reikšmingai naudotas generatyvusis DI, ir aprašyti DI vaidmenį numatomame tyrime. Neskelbtos ar konfidencialios medžiagos nereikėtų įkelti į nesaugias DI priemones.</p><p><strong>Jei vertinate paraiškas.</strong> Sprendimo dėl mokslinės kokybės ir vertės negalima perleisti DI priemonei, o vertinimo ataskaitų negalima rašyti su DI. DI galima naudoti pagalbinėms užduotims, pavyzdžiui, sąvokoms paaiškinti ar kalbai patobulinti, tik jei finansuotojas tai leidžia ir tik saugiomis priemonėmis. Paraiškų negalima pateikti viešoms DI paslaugoms, net ir ištraukomis. Finansuotojai taip pat įspėjami apie paraiškose paslėptas užuominas (hidden prompts), skirtas paveikti DI priemones.</p><p><strong>Kur rasti.</strong> <a href=\"https://research-and-innovation.ec.europa.eu/document/2b6cf7e5-36ac-41cb-aab5-0d32050143dc_en\" target=\"_blank\" rel=\"noopener\">Living guidelines on the responsible use of generative AI in research</a> Europos Komisijos mokslinių tyrimų ir inovacijų svetainėje (PDF).</p>"
+  }
+}
